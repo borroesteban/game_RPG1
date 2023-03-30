@@ -17730,7 +17730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textContainer: {fileID: 775872800}
-  textPrefab: {fileID: 3401138683813610741, guid: 519ba1ee9e9e1db46a41f6d614b4f9ec, type: 3}
+  textPrefab: {fileID: 8759493070628049603, guid: 519ba1ee9e9e1db46a41f6d614b4f9ec, type: 3}
 --- !u!222 &775872803
 CanvasRenderer:
   m_ObjectHideFlags: 0
