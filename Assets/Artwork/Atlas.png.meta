@@ -2006,6 +2006,363 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: sword_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 225
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98677cbd5adff5f44aa2b29979edaee5
+      internalID: 879054131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 225
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e704b95481da272458b4863d21c00833
+      internalID: 902694421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 225
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d96fb5cc84122b439b16dcd598f6634
+      internalID: 667589219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 225
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e08e402347487478cd30a4293c45ec
+      internalID: 1255698947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 225
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db2a608d355ec64e92e039f684ce2c5
+      internalID: 1796375878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 225
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8947edba9ce9e634bb1bb7be3e515cbd
+      internalID: 1642806573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 193
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49eca3c1c98f93945be1fcf030bc08d0
+      internalID: 1106046890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 193
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fd19fda80b9af4db4753e378ea5ad2
+      internalID: 1709591982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 193
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19f19c7a7f53e8498658978142e502b
+      internalID: -1949637782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 193
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e307d460fe2c424419d8d203d16dc338
+      internalID: 1131111881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 193
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1f8cadcdf7deb49b52558182958dc2
+      internalID: -1448250641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 193
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ff0e5980db16740b6a87e97903c75d
+      internalID: -533851216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_12
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 193
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20714b77c6999d94185abd5484065bf4
+      internalID: -1326483269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_13
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 193
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4edf04578f249468c2383e79f3ad92
+      internalID: 1356655228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 161
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba82588d6347ca4ca351e6e2eef427d
+      internalID: 1847349171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_15
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 161
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c255c6ed36eaf4e9fc8d59d7bd0402
+      internalID: -347267804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 161
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c584f9f6319de264d81564aa8ef212bd
+      internalID: 402708302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2017,96 +2374,113 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      floorDecoRuin_10: -1898619491
-      stairsBrown_5: 237663998
-      torch_0: 1835100652
-      door_opened_0: -453170717
-      stairsBrown_1: -2102584711
-      wall_3: 1900580031
-      torch_6: -481218424
-      crate_2: 922946385
-      floorDecoRuin_1: -1665455351
-      chest_regular_2: 375884659
-      player_2: 2113053402
-      staminaFountain_0: -846388428
-      wall_vertical_bis_3: -1541426498
-      pillarWithWall_1: 545078653
-      chest_regular_1: 130215450
-      floorDecoRuin_6: 683064713
-      wall_vertical_bis_5: 533544382
-      floorDecoRuin_4: 745484728
-      wall_vertical_0: -1025571487
-      door_closed_2: 1084354698
-      floor_0: 595818974
-      staminaFountainBig_1: -946875836
-      wall_vertical_1: 990053726
-      floorDecoRuin_5: 1120465401
-      torch_7: 2049962157
-      door_opened_1: 599294648
-      wall_vertical_bis_2: -1681770973
-      wall_vertical_: -1068743455
-      floorDecoRuin_9: -1849306743
-      wall_7: 1630478708
-      crate_1: 1347601202
-      wall_vertical_small_1: -1374425618
-      door_opened_3: -1060452164
-      wall_0: -1018770647
-      wall_vertical_bis_6: -1130840704
-      floorDecoRuin_0: 1847954167
-      wall_1: 970917203
-      staminaFountainBig_0: 430395017
-      torch_2: 922818367
-      player_0: -842512065
-      wall_5: -1487350672
-      player_3: 628923724
-      door_closed_0: 512314109
-      manaFountain_0: -1685197607
-      pillarWithWall_2: 330501274
-      wall_vertical_small_0: 87819536
-      healingFountain_0: 131419864
-      torch_3: 1879997960
-      crate_3: 529284412
-      wall_8: 1007443613
-      pillarNoWall_1: -1931032242
-      healingFountain_1: 24641211
-      torch_4: -1711429017
-      wall_vertical_2: 872101554
-      floorDecoRuin_3: 1235898994
-      staminaFountain_1: 451797907
-      floorDecoRuin_11: 1954909002
-      torch_1: 1990740682
-      crate_0: -1413494342
-      wall_9: 691379112
-      torch_5: 851624880
-      pillarNoWall_0: 994688866
-      player_1: -1687245423
-      floorDecoRuin_2: 1475491263
-      wall_2: 1797652965
-      wall_6: -1577316345
-      stairsBrown_3: 248228147
-      wall_vertical_4: 635175268
-      healingFountain_2: -1725847854
-      wall_vertical_bis_0: 1065239766
-      floorDecoRuin_8: -130804480
-      torch_8: -1514740677
-      pillarWithWall_0: 668259872
-      pillarNoWall_2: 12794754
-      wall_4: 1431757975
-      wall_vertical_3: 2058017958
-      door_closed_3: 790410387
-      stairsBrown_0: 1347701277
-      door_closed_4: 122272007
-      door_closed_1: 359211042
-      floorDecoRuin_7: 363982446
-      stairsBrown_4: -782940218
-      manaFountain_1: 1935827198
-      wall_vertical_bis_7: -610298053
-      door_opened_2: 1212120470
-      wall_vertical_bis_4: 1762525149
-      door_closed_5: 1071929345
-      wall_vertical_bis_1: 1287508871
       chest_regular_0: -737661473
+      chest_regular_1: 130215450
+      chest_regular_2: 375884659
+      crate_0: -1413494342
+      crate_1: 1347601202
+      crate_2: 922946385
+      crate_3: 529284412
+      door_closed_0: 512314109
+      door_closed_1: 359211042
+      door_closed_2: 1084354698
+      door_closed_3: 790410387
+      door_closed_4: 122272007
+      door_closed_5: 1071929345
+      door_opened_0: -453170717
+      door_opened_1: 599294648
+      door_opened_2: 1212120470
+      door_opened_3: -1060452164
+      floorDecoRuin_0: 1847954167
+      floorDecoRuin_1: -1665455351
+      floorDecoRuin_10: -1898619491
+      floorDecoRuin_11: 1954909002
+      floorDecoRuin_2: 1475491263
+      floorDecoRuin_3: 1235898994
+      floorDecoRuin_4: 745484728
+      floorDecoRuin_5: 1120465401
+      floorDecoRuin_6: 683064713
+      floorDecoRuin_7: 363982446
+      floorDecoRuin_8: -130804480
+      floorDecoRuin_9: -1849306743
+      floor_0: 595818974
+      healingFountain_0: 131419864
+      healingFountain_1: 24641211
+      healingFountain_2: -1725847854
+      manaFountain_0: -1685197607
+      manaFountain_1: 1935827198
+      pillarNoWall_0: 994688866
+      pillarNoWall_1: -1931032242
+      pillarNoWall_2: 12794754
+      pillarWithWall_0: 668259872
+      pillarWithWall_1: 545078653
+      pillarWithWall_2: 330501274
+      player_0: -842512065
+      player_1: -1687245423
+      player_2: 2113053402
+      player_3: 628923724
+      stairsBrown_0: 1347701277
+      stairsBrown_1: -2102584711
       stairsBrown_2: -1898114152
+      stairsBrown_3: 248228147
+      stairsBrown_4: -782940218
+      stairsBrown_5: 237663998
+      staminaFountainBig_0: 430395017
+      staminaFountainBig_1: -946875836
+      staminaFountain_0: -846388428
+      staminaFountain_1: 451797907
+      sword_0: 879054131
+      sword_1: 902694421
+      sword_10: -1448250641
+      sword_11: -533851216
+      sword_12: -1326483269
+      sword_13: 1356655228
+      sword_14: 1847349171
+      sword_15: -347267804
+      sword_16: 402708302
+      sword_2: 667589219
+      sword_3: 1255698947
+      sword_4: 1796375878
+      sword_5: 1642806573
+      sword_6: 1106046890
+      sword_7: 1709591982
+      sword_8: -1949637782
+      sword_9: 1131111881
+      torch_0: 1835100652
+      torch_1: 1990740682
+      torch_2: 922818367
+      torch_3: 1879997960
+      torch_4: -1711429017
+      torch_5: 851624880
+      torch_6: -481218424
+      torch_7: 2049962157
+      torch_8: -1514740677
+      wall_0: -1018770647
+      wall_1: 970917203
+      wall_2: 1797652965
+      wall_3: 1900580031
+      wall_4: 1431757975
+      wall_5: -1487350672
+      wall_6: -1577316345
+      wall_7: 1630478708
+      wall_8: 1007443613
+      wall_9: 691379112
+      wall_vertical_: -1068743455
+      wall_vertical_0: -1025571487
+      wall_vertical_1: 990053726
+      wall_vertical_2: 872101554
+      wall_vertical_3: 2058017958
+      wall_vertical_4: 635175268
+      wall_vertical_bis_0: 1065239766
+      wall_vertical_bis_1: 1287508871
+      wall_vertical_bis_2: -1681770973
+      wall_vertical_bis_3: -1541426498
+      wall_vertical_bis_4: 1762525149
+      wall_vertical_bis_5: 533544382
+      wall_vertical_bis_6: -1130840704
+      wall_vertical_bis_7: -610298053
+      wall_vertical_small_0: 87819536
+      wall_vertical_small_1: -1374425618
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
