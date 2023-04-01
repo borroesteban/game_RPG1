@@ -23,6 +23,8 @@ public class Weapon : Collidable
     }
 
     protected override void Update()
+
+    
     {
         base.Update();
 
@@ -35,6 +37,18 @@ public class Weapon : Collidable
             }
         }
     }
+
+    protected override void OnCollide(Collider2D coll)
+    {
+        if(coll.tag == "Fighter")
+        {
+            if(coll.name == "Player")
+                return;
+            Debug.Log(coll.name);
+            
+        }
+    }
+
 
     private void Swing()
     {
