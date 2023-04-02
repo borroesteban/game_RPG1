@@ -216,6 +216,7 @@ GameObject:
   - component: {fileID: 201121093}
   - component: {fileID: 201121098}
   - component: {fileID: 201121097}
+  - component: {fileID: 201121099}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -339,6 +340,26 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &201121099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201121092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c734f96dbd6f94ab26e5bbb3f1c34a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelText: {fileID: 1859109162}
+  hitpointText: {fileID: 1419637709}
+  pesosText: {fileID: 364592789}
+  upgradeCostText: {fileID: 303112880}
+  xpText: {fileID: 1631040917}
+  characterSelectionSprite: {fileID: 1723687083}
+  weaponSprite: {fileID: 926703269}
+  xpBar: {fileID: 1915781871}
 --- !u!1 &240810693
 GameObject:
   m_ObjectHideFlags: 0
@@ -18332,6 +18353,18 @@ MonoBehaviour:
           m_StringArgument: show
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 201121099}
+        m_TargetAssemblyTypeName: CharacterMenu, Assembly-CSharp
+        m_MethodName: UpdateMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &574631166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19067,7 +19100,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSprites: []
-  weaponSprites: []
+  weaponSprites:
+  - {fileID: 879054131, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: 902694421, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: 667589219, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: 1255698947, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: 1796375878, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: 1642806573, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: 1106046890, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: 1709591982, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: -1949637782, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: 1131111881, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: -1448250641, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: -533851216, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: -1326483269, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: 1356655228, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: 1847349171, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: -347267804, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
+  - {fileID: 402708302, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
   weaponPrices: 
   xpTable: 
   player: {fileID: 1202784538}
