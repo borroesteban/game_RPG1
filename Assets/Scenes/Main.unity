@@ -18575,6 +18575,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1915781871}
+  - {fileID: 1631040916}
   m_Father: {fileID: 1907821613}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19138,12 +19139,12 @@ MonoBehaviour:
   - {fileID: -347267804, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
   - {fileID: 402708302, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
   weaponPrices: 01000000050000000a0000000f00000014000000190000001e00000023000000280000002d00000032000000370000003c00000041000000460000004b00000050000000
-  xpTable: 
+  xpTable: 050000000a0000000f00000014000000190000001e00000023000000280000002d00000032000000
   player: {fileID: 1202784538}
   weapon: {fileID: 1516279508}
   floatingTextManager: {fileID: 775872802}
   pesos: 0
-  experience: 0
+  experience: 4
 --- !u!4 &904535347
 Transform:
   m_ObjectHideFlags: 0
@@ -34944,17 +34945,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631040915}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1915781871}
-  m_RootOrder: 0
+  m_Father: {fileID: 797724110}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.000051022074, y: 0}
   m_SizeDelta: {x: 550, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1631040917
@@ -35321,8 +35322,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1631040916}
+  m_Children: []
   m_Father: {fileID: 797724110}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -35514,6 +35514,14 @@ PrefabInstance:
     - target: {fileID: 2414915024638610221, guid: fd0a8cf3a42eeca499780bc4353e7692, type: 3}
       propertyPath: m_TagString
       value: Fighter
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414915024638610223, guid: fd0a8cf3a42eeca499780bc4353e7692, type: 3}
+      propertyPath: hitpoint
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414915024638610223, guid: fd0a8cf3a42eeca499780bc4353e7692, type: 3}
+      propertyPath: maxHitpoint
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2414915024638610223, guid: fd0a8cf3a42eeca499780bc4353e7692, type: 3}
       propertyPath: pushRecoverySpeed
