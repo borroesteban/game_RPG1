@@ -125,7 +125,7 @@ public class GameManager : MonoBehaviour
         
         //Change player skin
         pesos = int.Parse(data[1]);
-        
+
         //experience
         experience = int.Parse(data[2]);
         if(GetCurrentLevel() != 1)
@@ -135,5 +135,7 @@ public class GameManager : MonoBehaviour
         weapon.SetWeaponLevel(int.Parse(data[3]));
 
         Debug.Log("LoadState");
+
+        player.transform.position = GameObject.Find("SpawnPoint").transform.position;
     }
 }
