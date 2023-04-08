@@ -19550,6 +19550,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008262215}
   m_CullTransparentMesh: 1
+--- !u!1 &1100968533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7541695340613692145, guid: 8a6766ae87310474198d65b16ffd9b96, type: 3}
+  m_PrefabInstance: {fileID: 7541695340512802357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1100968538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100968533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ae55e54a1a9ad4881c0327ffc25703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  message: this is a text placeholder
 --- !u!4 &1142952333 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2414915024638610217, guid: fd0a8cf3a42eeca499780bc4353e7692, type: 3}
@@ -35782,7 +35814,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7541695340613692145, guid: 8a6766ae87310474198d65b16ffd9b96, type: 3}
       propertyPath: m_Name
-      value: TEST_NPC
+      value: IntroNPC
       objectReference: {fileID: 0}
     - target: {fileID: 7541695340613692146, guid: 8a6766ae87310474198d65b16ffd9b96, type: 3}
       propertyPath: m_RootOrder
@@ -35828,5 +35860,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7541695340613692157, guid: 8a6766ae87310474198d65b16ffd9b96, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8a6766ae87310474198d65b16ffd9b96, type: 3}
