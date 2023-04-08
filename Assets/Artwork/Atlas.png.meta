@@ -2447,6 +2447,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: boss_0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4349a234e149ff4e90f526710b2fc33
+      internalID: -1217980576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_0_minion_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95418e1ae94ee0944835a9a974587b0a
+      internalID: -866818600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2458,6 +2500,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      boss_0: -1217980576
+      boss_0_minion_0: -866818600
       chest_regular_0: -737661473
       chest_regular_1: 130215450
       chest_regular_2: 375884659
