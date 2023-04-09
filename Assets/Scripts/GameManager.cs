@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -52,19 +53,34 @@ public class GameManager : MonoBehaviour
     // Upgrade Weapon
     public bool TryUpgradeWeapon()
     {
-        // is the weapon max level?
-
-        if (weaponPrices.Count <= weapon.weaponLevel)
+        if (weapon.weaponLevel == 17)
+        { 
+            Debug.Log("el arma es 17");
             return false;
+        }
 
-        if (pesos >= weaponPrices[weapon.weaponLevel])
+        if (weaponPrices.Count >= weapon.weaponLevel)
         {
-           pesos -= weaponPrices[weapon.weaponLevel] ;
-           weapon.UpgradeWeapon();
-           return true;
+            pesos -= weaponPrices[weapon.weaponLevel];
+            weapon.UpgradeWeapon();
+            return true;
         }
         return false;
     }
+    // is the weapon max level?
+
+    //original code
+/*     if (weaponPrices.Count <= weapon.weaponLevel)
+        return false;
+
+    if (weaponPrices.Count >= weapon.weaponLevel)
+    {
+        pesos -= weaponPrices[weapon.weaponLevel];
+        weapon.UpgradeWeapon();
+        return true;
+    }
+    return false;
+    } */
 
     //hitpointbar
     public void OnHitpointChange()

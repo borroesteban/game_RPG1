@@ -70,13 +70,36 @@ public class Weapon : Collidable
     }
     public void UpgradeWeapon()
     {
+    weaponLevel = Clamp(weaponLevel + 1, 0, GameManager.instance.weaponSprites.Count - 1);
+    spriteRenderer.sprite = GameManager.instance.weaponSprites[weaponLevel];
+}
+private int Clamp(int value, int min, int max)
+{
+    if (value < min)
+    {
+        return min;
+    }
+    else if (value > max)
+    {
+        return max;
+    }
+    else
+    {
+        return value;
+    }
+}
+/*     {   
         weaponLevel++;
         spriteRenderer.sprite = GameManager.instance.weaponSprites[weaponLevel];
-    }
+    } */
 
     public void SetWeaponLevel(int level)
     {
+    weaponLevel = Mathf.Clamp(level, 0, GameManager.instance.weaponSprites.Count - 1);
+    spriteRenderer.sprite = GameManager.instance.weaponSprites[weaponLevel];
+}
+/*     {
         weaponLevel = level;
         spriteRenderer.sprite = GameManager.instance.weaponSprites[weaponLevel];
-    }
+    } */
 }

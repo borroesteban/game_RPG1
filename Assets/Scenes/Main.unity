@@ -18097,7 +18097,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 75
+  m_Text: 5
 --- !u!222 &364592790
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18558,7 +18558,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 565830536}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 904535346}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Respawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &565830536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19360,7 +19372,7 @@ MonoBehaviour:
   hud: {fileID: 290889825}
   menu: {fileID: 201121092}
   pesos: 0
-  experience: 4
+  experience: 0
 --- !u!4 &904535347
 Transform:
   m_ObjectHideFlags: 0
