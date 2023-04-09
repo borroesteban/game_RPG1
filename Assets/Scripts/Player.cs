@@ -68,6 +68,7 @@ public class Player : Mover
         isAlive = true;
         lastImmune = Time.time;
         pushDirection = Vector3.zero;
+        
     }
 
 }

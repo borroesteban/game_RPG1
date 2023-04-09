@@ -138,11 +138,23 @@ public class GameManager : MonoBehaviour
 
     //death menu and respawn
     public void Respawn()
+        {
+        deathMenuAnim.SetTrigger("Hide");
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+        weapon.weaponLevel = 0;
+        pesos = 0;
+        experience = 0;
+        weapon.spriteRenderer.sprite = GameManager.instance.weaponSprites[0];
+        player.Respawn();
+    }
+/*     
+    original respawn algorithm
     {
         deathMenuAnim.SetTrigger("Hide");
         UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
         player.Respawn();
-    }
+    } */
 
     //save state
     /*
