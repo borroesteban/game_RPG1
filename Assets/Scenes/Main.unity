@@ -23580,6 +23580,7 @@ MonoBehaviour:
   - 5.4
   weaponLevel: 0
   spriteRenderer: {fileID: 1516279507}
+  aliveCheck: {fileID: 2066958319}
 --- !u!61 &1516279509
 BoxCollider2D:
   m_ObjectHideFlags: 0
