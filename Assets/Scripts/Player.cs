@@ -6,7 +6,7 @@ using UnityEngine;
 public class Player : Mover
 {
     private SpriteRenderer spriteRenderer;
-    private bool isAlive = true;
+    public bool isAlive = true;
     
     protected override void Start()
     {

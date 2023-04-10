@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Weapon : Collidable
 {
     //swing sound (maybe)
@@ -61,13 +62,19 @@ public class Weapon : Collidable
             
         }
     }
-
+    
+    public GameObject aliveCheck;
+    private Player player;
     private void Swing()
-    {
+    {   player = aliveCheck.GetComponent<Player>();
+        if(player.isAlive)
+        {
         anim.SetTrigger("Swing");
         weaponSwingSound.Play();
-        
+        }
     }
+
+
     public void UpgradeWeapon()
     {
         weaponLevel = Clamp(weaponLevel + 1, 0, GameManager.instance.weaponSprites.Count - 1);
