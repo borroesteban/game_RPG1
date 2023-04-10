@@ -17,8 +17,6 @@ public class Weapon : Collidable
     private float cooldown = 0.5f;
     private float lastSwing;
 
-
-
     protected override void Start()
     {
         base.Start();
@@ -62,7 +60,6 @@ public class Weapon : Collidable
         }
     }
 
-
     private void Swing()
     {
         anim.SetTrigger("Swing");
@@ -70,24 +67,25 @@ public class Weapon : Collidable
     }
     public void UpgradeWeapon()
     {
-    weaponLevel = Clamp(weaponLevel + 1, 0, GameManager.instance.weaponSprites.Count - 1);
-    spriteRenderer.sprite = GameManager.instance.weaponSprites[weaponLevel];
-}
-private int Clamp(int value, int min, int max)
-{
-    if (value < min)
-    {
-        return min;
+        weaponLevel = Clamp(weaponLevel + 1, 0, GameManager.instance.weaponSprites.Count - 1);
+        spriteRenderer.sprite = GameManager.instance.weaponSprites[weaponLevel];
     }
-    else if (value > max)
+    private int Clamp(int value, int min, int max)
     {
-        return max;
+        if (value < min)
+            {
+                return min;
+            }
+            else if (value > max)
+            {
+                return max;
+            }
+            else
+            {
+                return value;
+            }
     }
-    else
-    {
-        return value;
-    }
-}
+        
 /*     {   
         weaponLevel++;
         spriteRenderer.sprite = GameManager.instance.weaponSprites[weaponLevel];
@@ -97,7 +95,7 @@ private int Clamp(int value, int min, int max)
     {
     weaponLevel = Mathf.Clamp(level, 0, GameManager.instance.weaponSprites.Count - 1);
     spriteRenderer.sprite = GameManager.instance.weaponSprites[weaponLevel];
-}
+    }
 /*     {
         weaponLevel = level;
         spriteRenderer.sprite = GameManager.instance.weaponSprites[weaponLevel];
