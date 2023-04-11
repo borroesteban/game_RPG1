@@ -2489,6 +2489,174 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: torchFIre_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 90
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f884baa1698bf4ca7a292d3afa8d73
+      internalID: 1184896549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torchFIre_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 90
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d6e9c536430ee43891966426bf83ee
+      internalID: -663807496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torchFIre_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 90
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ec43d32036e7f408a33d282300289e
+      internalID: 1004753405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torchFIre_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 90
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713a5be648b3831438a9bb4fae72e83f
+      internalID: 120332298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torchFIre_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 90
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66d3d005a57951439e5d89905315b77
+      internalID: 1293414249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torchFIre_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 90
+        width: 8
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7753d8facb64bc74f8a51b1387f1386c
+      internalID: -631851380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torchFIre_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 90
+        width: 8
+        height: 13
+      alignment: 9
+      pivot: {x: 0.4685669, y: 0.470986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155ff36cc78dba743bcde69a7f6a2863
+      internalID: -2103920335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torchFIre_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 90
+        width: 8
+        height: 13
+      alignment: 9
+      pivot: {x: 0.4685669, y: 0.470986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575cd0fd01801cd4b971bbf41d1b1e85
+      internalID: 815668655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2578,6 +2746,14 @@ TextureImporter:
       sword_7: 1709591982
       sword_8: -1949637782
       sword_9: 1131111881
+      torchFIre_0: 1184896549
+      torchFIre_1: -663807496
+      torchFIre_2: 1004753405
+      torchFIre_3: 120332298
+      torchFIre_4: 1293414249
+      torchFIre_5: -631851380
+      torchFIre_6: -2103920335
+      torchFIre_7: 815668655
       torch_0: 1835100652
       torch_1: 1990740682
       torch_2: 922818367
