@@ -42,18 +42,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Floor
+  - name: 1
     uniqueID: 2283314723
     locked: 0
-  - name: Design
+  - name: 2
     uniqueID: 3933179777
     locked: 0
-  - name: Interactable
+  - name: 3
     uniqueID: 1140542195
     locked: 0
-  - name: Actor
+  - name: 4
     uniqueID: 2216395625
     locked: 0
-  - name: Weapon
+  - name: 5
     uniqueID: 3698853459
     locked: 0
