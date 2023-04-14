@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 1516279508}
   - component: {fileID: 1516279510}
   - component: {fileID: 1516279511}
+  - component: {fileID: 647257871821498565}
   m_Layer: 0
   m_Name: sword_0
   m_TagString: Untagged
@@ -408,6 +409,36 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &647257871821498565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516279505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 1
+  m_ApplyToSortingLayers: ab21739b00000000239e1888f34afb43530678dc818f6fea69831b84710db5b6f3c180f595d9ca134bb57daf
+  m_ShapePath:
+  - {x: -0.015657175, y: -0.14297977, z: 0}
+  - {x: -0.017399563, y: 0.057600174, z: 0}
+  - {x: 0.01304198, y: 0.058471367, z: 0}
+  - {x: 0.013913174, y: -0.14210874, z: 0}
+  m_ShapePathHash: 457316436
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -4358310
+  m_LocalBounds:
+    m_Center: {x: -0.0017431937, y: -0.042254202, z: 0}
+    m_Extent: {x: 0.015656369, y: 0.10072557, z: 0}
 --- !u!1 &1699477484
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,6 +563,7 @@ GameObject:
   - component: {fileID: 2414915024638610223}
   - component: {fileID: 2414915024638610222}
   - component: {fileID: 2066958322}
+  - component: {fileID: 1202784542}
   m_Layer: 9
   m_Name: Player
   m_TagString: Fighter
@@ -665,3 +697,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f0f81cbd62dad48ba20d87d246920d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1202784542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2414915024638610221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 1
+  m_ApplyToSortingLayers: ab21739b00000000239e1888f34afb43530678dc818f6fea69831b84710db5b6f3c180f595d9ca134bb57daf
+  m_ShapePath:
+  - {x: -0.040991783, y: -0.07079041, z: 0}
+  - {x: -0.04008293, y: 0.07041013, z: 0}
+  - {x: 0.038795948, y: 0.07080829, z: 0}
+  - {x: 0.04082632, y: 0.004186034, z: 0}
+  - {x: 0.040853024, y: -0.07067037, z: 0}
+  - {x: 0.030108929, y: -0.07071757, z: 0}
+  - {x: 0.030299664, y: -0.06043589, z: 0}
+  - {x: -0.03003788, y: -0.06061542, z: 0}
+  - {x: -0.030080318, y: -0.07086539, z: 0}
+  m_ShapePathHash: 1065378623
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -4342058
+  m_LocalBounds:
+    m_Center: {x: -0.00006937981, y: -0.000028550625, z: 0}
+    m_Extent: {x: 0.040922403, y: 0.07083684, z: 0}
