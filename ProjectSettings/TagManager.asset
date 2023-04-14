@@ -39,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: collision
+    uniqueID: 2608013739
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -56,9 +59,6 @@ TagManager:
     locked: 0
   - name: wall covering player
     uniqueID: 2216395625
-    locked: 0
-  - name: collision
-    uniqueID: 2608013739
     locked: 0
   - name: New Layer 7
     uniqueID: 3065318769
