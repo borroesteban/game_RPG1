@@ -127,54 +127,54 @@ TextureImporter:
         rgba: 4278255615
     - name: arm9_0
       guid: 4853de4d027146049aff1f59aff6f33d
-      position: {x: 3.0748231, y: 4.7719674, z: 1}
-      rotation: {x: 0, y: -0, z: 0.95715404, w: 0.28957924}
-      length: 3.2186847
+      position: {x: 2.912831, y: 5.1237164, z: 1}
+      rotation: {x: 0, y: -0, z: 0.9700949, w: 0.24272582}
+      length: 3.1075473
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4278255360
     - name: arm9_1
       guid: ebe7402ca4fc37245ac764913fe4aaf9
-      position: {x: 3.2186842, y: 0.00000009787493, z: 1}
-      rotation: {x: 0, y: 0, z: -0.03575306, w: 0.9993607}
-      length: 2.502269
+      position: {x: 3.1075473, y: 0.00000039299397, z: 1}
+      rotation: {x: 0, y: 0, z: -0.1287582, w: 0.99167603}
+      length: 2.3944383
       parentId: 2
       color:
         serializedVersion: 2
         rgba: 4294967040
     - name: arm9_2
       guid: a8a7a967ac5ef594a8e6f1cc2493bb90
-      position: {x: 2.502269, y: -0.0000013028841, z: 1}
-      rotation: {x: 0, y: 0, z: -0.39773548, w: 0.91750014}
-      length: 1.9353112
+      position: {x: 2.3944383, y: 0.00000021903142, z: 1}
+      rotation: {x: 0, y: 0, z: -0.36167648, w: 0.93230367}
+      length: 2.408124
       parentId: 3
       color:
         serializedVersion: 2
         rgba: 4294901760
     - name: arm8_0
       guid: 00d305e85245fed479c351d5d9eee7d6
-      position: {x: 0.3895485, y: -4.6479526, z: 1}
-      rotation: {x: 0, y: -0, z: -0.97463894, w: 0.2237833}
-      length: 1.8311466
+      position: {x: 0.018206127, y: -4.6250424, z: 1}
+      rotation: {x: 0, y: -0, z: -0.9391486, w: 0.34351116}
+      length: 1.9270924
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: arm8_1
       guid: e1f5f1ac9a453f34680b7b41f474081c
-      position: {x: 1.831147, y: 0.0000009864833, z: 1}
-      rotation: {x: 0, y: 0, z: -0.11812397, w: 0.9929989}
-      length: 2.0584543
+      position: {x: 1.9270931, y: 0.0000004395688, z: 1}
+      rotation: {x: 0, y: 0, z: -0.3392048, w: 0.9407126}
+      length: 1.8154198
       parentId: 5
       color:
         serializedVersion: 2
         rgba: 4278223103
     - name: arm8_2
       guid: 8505608f65d0da9479a593b595d8e03d
-      position: {x: 2.058454, y: -0.0000001999796, z: 1}
-      rotation: {x: 0, y: 0, z: -0.6118468, w: 0.7909763}
-      length: 1.3410404
+      position: {x: 1.8154197, y: 0.00000025102062, z: 1}
+      rotation: {x: 0, y: 0, z: -0.56990236, w: 0.8217125}
+      length: 1.5186447
       parentId: 6
       color:
         serializedVersion: 2
@@ -182,80 +182,80 @@ TextureImporter:
     - name: arm6_0
       guid: 4f3873f484abfc74db1c96f16e9ef51c
       position: {x: 7.4112005, y: -9.881823, z: 1}
-      rotation: {x: 0, y: -0, z: -0.8942626, w: 0.44754258}
-      length: 2.1201215
+      rotation: {x: 0, y: -0, z: -0.87463075, w: 0.48478967}
+      length: 2.3948262
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4286643968
     - name: arm6_1
       guid: 49d32a2ecf7d46f44a9f0e28caa17ae2
-      position: {x: 2.1201212, y: 0.0000012865507, z: 1}
-      rotation: {x: 0, y: 0, z: -0.40127987, w: 0.9159555}
-      length: 3.529395
+      position: {x: 2.394827, y: -0.0000002304875, z: 1}
+      rotation: {x: 0, y: 0, z: -0.47130346, w: 0.8819711}
+      length: 3.878182
       parentId: 8
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: arm6_2
       guid: 5c24864993f8dbe4da66df1d7c4745f0
-      position: {x: 3.5293956, y: 0.0000009271653, z: 1}
-      rotation: {x: 0, y: 0, z: 0.331647, w: 0.9434036}
-      length: 2.51434
+      position: {x: 3.878183, y: -0.00000022473732, z: 1}
+      rotation: {x: 0, y: 0, z: 0.3676602, w: 0.92996025}
+      length: 3.293645
       parentId: 9
       color:
         serializedVersion: 2
         rgba: 4294901888
     - name: arm10_2
       guid: 4141609dad6e0b34495c8815f417a266
-      position: {x: 3.3342197, y: 0.00000050024306, z: 1}
-      rotation: {x: 0, y: 0, z: -0.49053317, w: 0.8714226}
-      length: 1.8598806
+      position: {x: 3.0967603, y: -0.00000047301768, z: 1}
+      rotation: {x: 0, y: 0, z: -0.5834534, w: 0.81214666}
+      length: 1.7371173
       parentId: 13
       color:
         serializedVersion: 2
         rgba: 4278197503
     - name: arm10_0
       guid: 6ca568d71fbad0d478bb0000c56b108a
-      position: {x: 4.891536, y: 7.049736, z: 1}
-      rotation: {x: 0, y: 0, z: 0.63590103, w: 0.7717706}
-      length: 2.6211827
+      position: {x: 4.8891573, y: 7.5304775, z: 1}
+      rotation: {x: 0, y: 0, z: 0.69405556, w: 0.71992147}
+      length: 3.1178083
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4286578943
     - name: arm10_1
       guid: 7219cfbe70de3fa428da274cfb575a95
-      position: {x: 2.6211824, y: 0.0000000040065657, z: 1}
-      rotation: {x: 0, y: 0, z: 0.27234313, w: 0.9622002}
-      length: 3.33422
+      position: {x: 3.1178076, y: 0.00000033156692, z: 1}
+      rotation: {x: 0, y: 0, z: 0.14622109, w: 0.989252}
+      length: 3.0967603
       parentId: 12
       color:
         serializedVersion: 2
         rgba: 4278255615
     - name: arm1_0
       guid: 42c53e9bf449f56498a314903ea0a546
-      position: {x: 3.3313034, y: 7.798116, z: 1}
-      rotation: {x: 0, y: -0, z: 0.81893206, w: 0.57389057}
-      length: 2.577411
+      position: {x: 3.6084716, y: 8.592418, z: 1}
+      rotation: {x: 0, y: -0, z: 0.8885825, w: 0.4587168}
+      length: 1.9974432
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4294967040
     - name: arm1_1
       guid: d94ed2535895f14469662e55817468d2
-      position: {x: 2.5774105, y: -0.00000067313493, z: 1}
-      rotation: {x: 0, y: 0, z: 0.028398607, w: 0.9995967}
-      length: 2.3576493
+      position: {x: 1.9974427, y: 0.000000269905, z: 1}
+      rotation: {x: 0, y: 0, z: -0.106094815, w: 0.9943561}
+      length: 2.3576481
       parentId: 14
       color:
         serializedVersion: 2
         rgba: 4294901760
     - name: arm1_2
       guid: 18752fa4608284045bb93f6ee2cb2e9d
-      position: {x: 2.3576486, y: -0.0000007197907, z: 1}
-      rotation: {x: 0, y: 0, z: -0.027111594, w: 0.9996325}
-      length: 2.2114532
+      position: {x: 2.3576477, y: -0.0000012872854, z: 1}
+      rotation: {x: 0, y: 0, z: -0.044778347, w: 0.998997}
+      length: 2.423587
       parentId: 15
       color:
         serializedVersion: 2
@@ -263,26 +263,26 @@ TextureImporter:
     - name: arm5_0
       guid: 6bd1dac7c49080d4184c64ec3cc566b2
       position: {x: 4.2500196, y: -9.581087, z: 1}
-      rotation: {x: 0, y: 0, z: -0.6692611, w: 0.7430274}
-      length: 2.6354957
+      rotation: {x: 0, y: 0, z: -0.6319541, w: 0.7750059}
+      length: 3.0115204
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4278190335
     - name: arm5_1
       guid: b03ebd6cf0b52a34dbb15200712df18e
-      position: {x: 2.6354952, y: 0.00000045888262, z: 1}
-      rotation: {x: 0, y: 0, z: 0.2910116, w: 0.9567195}
-      length: 1.881949
+      position: {x: 3.0115197, y: -0.000000034553267, z: 1}
+      rotation: {x: 0, y: 0, z: 0.2586882, w: 0.9659609}
+      length: 1.9357039
       parentId: 17
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: arm5_2
       guid: 7f4d8417e7dcef74e8d5d27051ab257e
-      position: {x: 1.8819481, y: -0.0000005027215, z: 1}
-      rotation: {x: 0, y: 0, z: 0.099210255, w: 0.9950665}
-      length: 2.2619107
+      position: {x: 1.9357011, y: 0.000000075132675, z: 1}
+      rotation: {x: 0, y: 0, z: 0.031842973, w: 0.99949294}
+      length: 2.1752381
       parentId: 18
       color:
         serializedVersion: 2
@@ -290,43 +290,43 @@ TextureImporter:
     - name: arm4_0
       guid: 9ed9089ec8f2d574f967384627aca598
       position: {x: 7.965847, y: -6.7638774, z: 1}
-      rotation: {x: 0, y: 0, z: -0.30221784, w: 0.9532389}
-      length: 2.1623638
+      rotation: {x: 0, y: 0, z: -0.3022176, w: 0.95323896}
+      length: 2.1623657
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: arm4_1
       guid: f049ea78cc8570d41919b70a30cd4f5d
-      position: {x: 2.1623652, y: -0.000000061194555, z: 1}
-      rotation: {x: 0, y: 0, z: 0.22821647, w: 0.97361046}
-      length: 1.6843573
+      position: {x: 2.162364, y: -0.000000106234324, z: 1}
+      rotation: {x: 0, y: 0, z: 0.22821607, w: 0.9736105}
+      length: 1.6843555
       parentId: 20
       color:
         serializedVersion: 2
         rgba: 4294901888
     - name: arm4_2
       guid: 3bc70f6e2be4b2b4aa7ab0f811ff4383
-      position: {x: 1.6843555, y: -0.00000052034613, z: 1}
-      rotation: {x: 0, y: 0, z: 0.36802652, w: 0.9298153}
-      length: 2.4849703
+      position: {x: 1.6843549, y: 0.00000033537788, z: 1}
+      rotation: {x: 0, y: 0, z: 0.36802664, w: 0.92981523}
+      length: 2.4849706
       parentId: 21
       color:
         serializedVersion: 2
         rgba: 4286578943
     - name: arm4_3
       guid: 064552740dd48c84b9b5334059f89122
-      position: {x: 2.4849713, y: -0.0000002312596, z: 1}
-      rotation: {x: 0, y: -0, z: -0.80945814, w: 0.58717763}
-      length: 3.6442535
+      position: {x: 2.4849713, y: -0.0000012147306, z: 1}
+      rotation: {x: 0, y: -0, z: -0.8094581, w: 0.58717775}
+      length: 3.644252
       parentId: 22
       color:
         serializedVersion: 2
         rgba: 4278223103
     - name: arm4_4
       guid: d895cba197f629d458a000946011f723
-      position: {x: 3.6442535, y: 0.00000046303091, z: 1}
-      rotation: {x: 0, y: 0, z: 0.25381488, w: 0.96725285}
+      position: {x: 3.6442513, y: 0.0000003686788, z: 1}
+      rotation: {x: 0, y: 0, z: 0.25381476, w: 0.9672529}
       length: 1.5762972
       parentId: 23
       color:
@@ -353,7 +353,7 @@ TextureImporter:
     - name: arm3_2
       guid: 42e25a09581ba1f48b624dde82515721
       position: {x: 2.2242732, y: -0.0000006485707, z: 1}
-      rotation: {x: 0, y: 0, z: 0.65116024, w: 0.7589403}
+      rotation: {x: 0, y: 0, z: 0.6511603, w: 0.7589403}
       length: 1.6881666
       parentId: 26
       color:
@@ -361,45 +361,45 @@ TextureImporter:
         rgba: 4294902015
     - name: arm2_0
       guid: 7736e2168f7c9c74e9db63b9cf4b8fa9
-      position: {x: 8.938733, y: 4.266744, z: 1}
-      rotation: {x: 0, y: 0, z: 0.37715536, w: 0.92615}
-      length: 2.150878
+      position: {x: 8.974943, y: 4.4261045, z: 1}
+      rotation: {x: 0, y: 0, z: 0.356673, w: 0.9342293}
+      length: 2.0155857
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4278190335
     - name: arm2_1
       guid: f284f062d119fea4ebfec14b0ae89aa3
-      position: {x: 2.1508763, y: 0.00000020032758, z: 1}
-      rotation: {x: 0, y: 0, z: -0.38326636, w: 0.92363787}
-      length: 3.3416407
+      position: {x: 2.015584, y: -0.00000072358523, z: 1}
+      rotation: {x: 0, y: 0, z: -0.36283797, w: 0.93185234}
+      length: 3.3416424
       parentId: 28
       color:
         serializedVersion: 2
         rgba: 4278255615
     - name: arm2_2
       guid: 4e4e42779619e0e438072aa2d8ba2571
-      position: {x: 3.3416412, y: 0.00000038294797, z: 1}
-      rotation: {x: 0, y: 0, z: -0.4215278, w: 0.9068155}
-      length: 2.9458704
+      position: {x: 3.3416436, y: 0.00000060832195, z: 1}
+      rotation: {x: 0, y: 0, z: -0.38285974, w: 0.9238065}
+      length: 3.2555988
       parentId: 29
       color:
         serializedVersion: 2
         rgba: 4286643968
     - name: arm7_0
       guid: b0575d052b7140241ac86721659ea82e
-      position: {x: 1.9944764, y: -7.0286975, z: 1}
-      rotation: {x: 0, y: -0, z: -0.9766157, w: 0.21499242}
-      length: 1.8247081
+      position: {x: 0.754449, y: -7.8845773, z: 1}
+      rotation: {x: 0, y: -0, z: -0.9450786, w: 0.32684308}
+      length: 1.6797261
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: arm7_1
       guid: 97feabb3f5cd375408537e06245e1a5e
-      position: {x: 1.8247081, y: 0.0000006876137, z: 1}
-      rotation: {x: 0, y: 0, z: 0.27658328, w: 0.96099}
-      length: 1.9485415
+      position: {x: 1.6797256, y: 0.00000019690401, z: 1}
+      rotation: {x: 0, y: 0, z: 0.29650074, w: 0.95503265}
+      length: 0.5298846
       parentId: 31
       color:
         serializedVersion: 2
@@ -846,9 +846,9 @@ TextureImporter:
       boneIndex[1]: 30
       boneIndex[2]: 14
       boneIndex[3]: 0
-    - weight[0]: 0.68639994
+    - weight[0]: 0.6864
       weight[1]: 0.22000003
-      weight[2]: 0.09359999
+      weight[2]: 0.0936
       weight[3]: 0
       boneIndex[0]: 14
       boneIndex[1]: 0
@@ -927,7 +927,7 @@ TextureImporter:
       boneIndex[2]: 0
       boneIndex[3]: 0
     - weight[0]: 0.52
-      weight[1]: 0.48
+      weight[1]: 0.48000002
       weight[2]: 0
       weight[3]: 0
       boneIndex[0]: 0

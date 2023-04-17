@@ -14,6 +14,7 @@ public class Enemy : Mover
     private bool collidingWithPlayer;
     private Transform playerTransform;
     private Vector3 startingPosition;
+    public Animator bosstest3;
     
     //hitbox
     public ContactFilter2D filter;
@@ -35,7 +36,7 @@ public class Enemy : Mover
         {
             if(Vector3.Distance(playerTransform.position, startingPosition) < triggerLength)
                 chasing = true;
-
+                
             if (chasing)
             {
                 if(!collidingWithPlayer)
@@ -70,6 +71,17 @@ public class Enemy : Mover
             //the array is not cleaned up, so we do it ourselves
             hits[i] = null;
         }
+    }
+
+    public void CheckChasing(){
+        if (chasing == true)
+        {
+            bosstest3.SetTrigger("isChasing");
+        }
+        else{
+            bosstest3.SetTrigger("notChasing");
+        }
+
     }
 
     protected override void Death()
