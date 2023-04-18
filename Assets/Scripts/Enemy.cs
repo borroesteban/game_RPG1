@@ -36,6 +36,7 @@ public class Enemy : Mover
         {
             if(Vector3.Distance(playerTransform.position, startingPosition) < triggerLength)
                 chasing = true;
+                CheckChasing();
                 
             if (chasing)
             {
@@ -53,6 +54,7 @@ public class Enemy : Mover
         {
             UpdateMotor(startingPosition - transform.position);
             chasing = false;
+            CheckChasing();
         }
 
         //check for overlaps
@@ -81,7 +83,6 @@ public class Enemy : Mover
         else{
             bosstest3.SetTrigger("notChasing");
         }
-
     }
 
     protected override void Death()
