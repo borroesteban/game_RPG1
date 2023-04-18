@@ -14,7 +14,7 @@ public class Enemy : Mover
     private bool collidingWithPlayer;
     private Transform playerTransform;
     private Vector3 startingPosition;
-    public Animator bosstest3;
+    public Animator animator;
     
     //hitbox
     public ContactFilter2D filter;
@@ -78,10 +78,10 @@ public class Enemy : Mover
     public void CheckChasing(){
         if (chasing == true)
         {
-            bosstest3.SetTrigger("isChasing");
+            animator.SetTrigger("isChasing");
         }
         else{
-            bosstest3.SetTrigger("notChasing");
+            animator.SetTrigger("notChasing");
         }
     }
 
