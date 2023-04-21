@@ -1025,15 +1025,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249270642}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0.0893, y: 0.0032, z: 0.0029949048}
+  m_LocalRotation: {x: -0, y: -0, z: -0.004293922, w: -0.9999908}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0029949048}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1893758321}
   m_Father: {fileID: 383969527}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 360.492}
 --- !u!1 &250445096
 GameObject:
   m_ObjectHideFlags: 0
@@ -6537,11 +6537,11 @@ MonoBehaviour:
   lineRend: {fileID: 383969529}
   segmentPoses: []
   targetDir: {fileID: 1893758321}
-  targetDist: 0.2
-  smoothSpeed: 0.02
-  trailSpeed: 350
-  wiggleSpeed: 10
-  wiggleMagnitude: 20
+  targetDist: 0.07
+  smoothSpeed: 0.05
+  trailSpeed: 8.4
+  wiggleSpeed: 4.5
+  wiggleMagnitude: 35.5
   wiggleDir: {fileID: 249270643}
 --- !u!120 &383969529
 LineRenderer:
@@ -6586,7 +6586,10 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
+  - {x: 0.2, y: 0, z: 0}
   - {x: 0.3, y: 0, z: 0}
+  - {x: 0.4, y: 0, z: 0}
+  - {x: 0.4, y: 0, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -6594,14 +6597,23 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.029800415
-        value: 0.025261521
-        inSlope: 0
-        outSlope: 0
+        time: 0.009841919
+        value: 0.052849412
+        inSlope: -0.34857014
+        outSlope: -0.34857014
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.33333334
+        outWeight: 0.1741911
+      - serializedVersion: 3
+        time: 0.5662073
+        value: 0
+        inSlope: -0.24668771
+        outSlope: -0.24668771
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.19102013
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -14719,14 +14731,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893758320}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7089686, w: 0.7052402}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 249270643}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.302}
 --- !u!1 &1894146922
 GameObject:
   m_ObjectHideFlags: 0
