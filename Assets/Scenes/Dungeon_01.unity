@@ -202,7 +202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7151769
 Transform:
   m_ObjectHideFlags: 0
@@ -6639,7 +6639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &376716770
 Transform:
   m_ObjectHideFlags: 0
@@ -6867,14 +6867,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 8
+  length: 1
   lineRend: {fileID: 383969529}
   segmentPoses: []
   targetDir: {fileID: 1893758321}
-  targetDist: 0.07
-  smoothSpeed: 0.08
-  trailSpeed: 8.4
-  wiggleSpeed: 2
+  targetDist: 0.135
+  smoothSpeed: 0.15
+  trailSpeed: 1.58
+  wiggleSpeed: 1
   wiggleMagnitude: 35.5
   wiggleDir: {fileID: 249270643}
 --- !u!120 &383969529
@@ -6897,7 +6897,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7c74b7c1764cc1549b20678b7a0c9840, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6922,8 +6922,6 @@ LineRenderer:
   - {x: 0, y: 0, z: 0}
   - {x: 0.2, y: 0, z: 0}
   - {x: 0.3, y: 0, z: 0}
-  - {x: 0.4, y: 0, z: 0}
-  - {x: 0.4, y: 0, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -6931,37 +6929,28 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.009841919
-        value: 0.052849412
+        time: 0.05704117
+        value: 0.39495146
         inSlope: -0.34857014
         outSlope: -0.34857014
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.1741911
-      - serializedVersion: 3
-        time: 0.5662073
-        value: 0
-        inSlope: -0.24668771
-        outSlope: -0.24668771
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.19102013
-        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.6862745, g: 0.41960788, b: 0.14901961, a: 1}
-      key1: {r: 0.2735849, g: 0.14868006, b: 0.021938415, a: 1}
+      key1: {r: 0.6862745, g: 0.41960788, b: 0.14901961, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 32575
+      ctime0: 0
       ctime1: 65535
       ctime2: 65535
       ctime3: 0
@@ -6969,7 +6958,7 @@ LineRenderer:
       ctime5: 0
       ctime6: 0
       ctime7: 0
-      atime0: 0
+      atime0: 193
       atime1: 65535
       atime2: 0
       atime3: 0
@@ -6980,8 +6969,8 @@ LineRenderer:
       m_Mode: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    numCornerVertices: 10
-    numCapVertices: 5
+    numCornerVertices: 1
+    numCapVertices: 1
     alignment: 0
     textureMode: 0
     shadowBias: 0.5
@@ -8831,7 +8820,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &447973172
 Transform:
   m_ObjectHideFlags: 0
@@ -8860,16 +8849,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 8
-  lineRend: {fileID: 447973174}
+  length: 1
+  lineRend: {fileID: 383969529}
   segmentPoses: []
-  targetDir: {fileID: 821153288}
-  targetDist: 0.07
-  smoothSpeed: 0.08
-  trailSpeed: 8.4
-  wiggleSpeed: 2
+  targetDir: {fileID: 1893758321}
+  targetDist: 0.135
+  smoothSpeed: 0.15
+  trailSpeed: 1.58
+  wiggleSpeed: 1
   wiggleMagnitude: 35.5
-  wiggleDir: {fileID: 1565182659}
+  wiggleDir: {fileID: 249270643}
 --- !u!120 &447973174
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -8890,7 +8879,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0fe6da7f4d72f6643a11ce0e39546e42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11600,7 +11589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &819847015
 Transform:
   m_ObjectHideFlags: 0
@@ -11974,7 +11963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &834024258
 Transform:
   m_ObjectHideFlags: 0
@@ -12003,16 +11992,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 8
-  lineRend: {fileID: 834024260}
+  length: 1
+  lineRend: {fileID: 383969529}
   segmentPoses: []
-  targetDir: {fileID: 427801180}
-  targetDist: 0.07
-  smoothSpeed: 0.08
-  trailSpeed: 8.4
-  wiggleSpeed: 2
+  targetDir: {fileID: 1893758321}
+  targetDist: 0.135
+  smoothSpeed: 0.15
+  trailSpeed: 1.58
+  wiggleSpeed: 1
   wiggleMagnitude: 35.5
-  wiggleDir: {fileID: 1838954072}
+  wiggleDir: {fileID: 249270643}
 --- !u!120 &834024260
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -12033,7 +12022,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0fe6da7f4d72f6643a11ce0e39546e42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12315,7 +12304,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &846072019
 Transform:
   m_ObjectHideFlags: 0
@@ -12344,16 +12333,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 8
-  lineRend: {fileID: 846072021}
+  length: 1
+  lineRend: {fileID: 383969529}
   segmentPoses: []
-  targetDir: {fileID: 2012180675}
-  targetDist: 0.07
-  smoothSpeed: 0.08
-  trailSpeed: 8.4
-  wiggleSpeed: 2
+  targetDir: {fileID: 1893758321}
+  targetDist: 0.135
+  smoothSpeed: 0.15
+  trailSpeed: 1.58
+  wiggleSpeed: 1
   wiggleMagnitude: 35.5
-  wiggleDir: {fileID: 1767241711}
+  wiggleDir: {fileID: 249270643}
 --- !u!120 &846072021
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -12374,7 +12363,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0fe6da7f4d72f6643a11ce0e39546e42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16240,7 +16229,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1892571060
 Transform:
   m_ObjectHideFlags: 0
@@ -16269,16 +16258,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 8
-  lineRend: {fileID: 1892571062}
+  length: 1
+  lineRend: {fileID: 383969529}
   segmentPoses: []
-  targetDir: {fileID: 1419681638}
-  targetDist: 0.07
-  smoothSpeed: 0.08
-  trailSpeed: 8.4
-  wiggleSpeed: 2
+  targetDir: {fileID: 1893758321}
+  targetDist: 0.135
+  smoothSpeed: 0.15
+  trailSpeed: 1.58
+  wiggleSpeed: 1
   wiggleMagnitude: 35.5
-  wiggleDir: {fileID: 1649415609}
+  wiggleDir: {fileID: 249270643}
 --- !u!120 &1892571062
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -16299,7 +16288,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0fe6da7f4d72f6643a11ce0e39546e42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16603,7 +16592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1902377923
 Transform:
   m_ObjectHideFlags: 0
@@ -27303,7 +27292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2139860188
 Transform:
   m_ObjectHideFlags: 0
