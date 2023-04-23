@@ -14,7 +14,7 @@ public class Enemy : Mover
     private bool collidingWithPlayer;
     private Transform playerTransform;
     private Vector3 startingPosition;
-    public Animator animator;
+   
     
     //hitbox
     public ContactFilter2D filter;
@@ -36,7 +36,7 @@ public class Enemy : Mover
         {
             if(Vector3.Distance(playerTransform.position, startingPosition) < triggerLength)
                 chasing = true;
-                CheckChasing();
+                
                 
             if (chasing)
             {
@@ -54,7 +54,7 @@ public class Enemy : Mover
         {
             UpdateMotor(startingPosition - transform.position);
             chasing = false;
-            CheckChasing();
+            
         }
 
         //check for overlaps
@@ -75,15 +75,7 @@ public class Enemy : Mover
         }
     }
 
-    public void CheckChasing(){
-        if (chasing == true)
-        {
-            animator.SetTrigger("isChasing");
-        }
-        else{
-            animator.SetTrigger("notChasing");
-        }
-    }
+
 
     protected override void Death()
     {
