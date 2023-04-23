@@ -3044,7 +3044,7 @@ TextureImporter:
         width: 6
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3052,6 +3052,195 @@ TextureImporter:
       bones: []
       spriteID: 49bc8c6b0f75ed14cb64bcb1dbf282c3
       internalID: 247036869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2133d7b52b44d248943d489c9440c0b
+      internalID: 1653652872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e84ad2dabf472f41b4f1530e860f23c
+      internalID: -982477310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c974c4984d2714ea2ea42d300b0a77
+      internalID: -2081206125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee759062f25ce34db6e22bbd0976979
+      internalID: -141947113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10e07e6d32ca6d4cb6cb98000f02773
+      internalID: 148797864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c18d195653a9046a6b6c170d6138b3
+      internalID: -1631243854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9bc366e4c3f0c44851b81e834b9317
+      internalID: 1272567270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6ba083bc8818842a18ca5e66e88472
+      internalID: 1957700763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb01a2922d56e047b74ac3be98499f5
+      internalID: -438843547
       vertices: []
       indices: 
       edges: []
@@ -3067,6 +3256,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Atlas_8: -438843547
       boss_0: -1217980576
       boss_0_minion_0: -866818600
       chest_regular_0: -737661473
@@ -3191,6 +3381,14 @@ TextureImporter:
       wall_7: 1630478708
       wall_8: 1007443613
       wall_9: 691379112
+      wall_shadow_0: 1653652872
+      wall_shadow_1: -982477310
+      wall_shadow_2: -2081206125
+      wall_shadow_3: -141947113
+      wall_shadow_4: 148797864
+      wall_shadow_5: -1631243854
+      wall_shadow_6: 1272567270
+      wall_shadow_7: 1957700763
       wall_vertical_: -1068743455
       wall_vertical_0: -1025571487
       wall_vertical_1: 990053726
