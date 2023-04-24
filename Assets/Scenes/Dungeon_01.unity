@@ -231,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 30
+  length: 5
   lineRend: {fileID: 49449010}
   segmentPoses:
   - {x: 0, y: 0, z: 0}
@@ -240,11 +240,11 @@ MonoBehaviour:
   - {x: 0.2, y: 0, z: 0}
   - {x: 0.2, y: 0, z: 0}
   targetDir: {fileID: 734128351}
-  targetDist: 0.008
-  smoothSpeed: 0.05
-  trailSpeed: 200000
+  targetDist: 0.07
+  smoothSpeed: 0.4
+  trailSpeed: 20000
   wiggleSpeed: 2
-  wiggleMagnitude: 15
+  wiggleMagnitude: 65
   wiggleDir: {fileID: 78498099}
 --- !u!120 &49449010
 LineRenderer:
@@ -266,7 +266,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dcde22fddd9d3c24f9ac70e330928cd9, type: 2}
+  - {fileID: 2100000, guid: 8e93594de316a514f95a3935c18cd865, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -293,31 +293,6 @@ LineRenderer:
   - {x: 0.04, y: 0, z: 1}
   - {x: 0.06, y: 0, z: 1}
   - {x: 0.08, y: 0, z: 1}
-  - {x: 0.1, y: 0, z: 1}
-  - {x: 1.12, y: 0, z: 1}
-  - {x: 1.14, y: 0, z: 1}
-  - {x: 1.16, y: 0, z: 1}
-  - {x: 1.18, y: 0, z: 1}
-  - {x: 1.2, y: 0, z: 1}
-  - {x: 1.22, y: 0, z: 1}
-  - {x: 1.24, y: 0, z: 1}
-  - {x: 1.26, y: 0, z: 1}
-  - {x: 1.28, y: 0, z: 1}
-  - {x: 2, y: 0, z: 1}
-  - {x: 2.2, y: 0, z: 1}
-  - {x: 2.22, y: 0, z: 1}
-  - {x: 2.24, y: 0, z: 1}
-  - {x: 2.26, y: 0, z: 1}
-  - {x: 2.28, y: 0, z: 1}
-  - {x: 2.3, y: 0, z: 1}
-  - {x: 2.32, y: 0, z: 1}
-  - {x: 2.34, y: 0, z: 1}
-  - {x: 2.36, y: 0, z: 1}
-  - {x: 2.38, y: 0, z: 1}
-  - {x: 2.4, y: 0, z: 1}
-  - {x: 2.42, y: 0, z: 1}
-  - {x: 2.44, y: 0, z: 1}
-  - {x: 2.46, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -325,14 +300,23 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.007425187
-        value: 0.42559436
+        time: 0.013975022
+        value: 0.6169853
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.4976081
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -9338,7 +9322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 30
+  length: 5
   lineRend: {fileID: 840481224}
   segmentPoses:
   - {x: 0, y: 0, z: 0}
@@ -9347,11 +9331,11 @@ MonoBehaviour:
   - {x: 0.2, y: 0, z: 0}
   - {x: 0.2, y: 0, z: 0}
   targetDir: {fileID: 1510514728}
-  targetDist: 0.008
-  smoothSpeed: 0.05
-  trailSpeed: 200000
-  wiggleSpeed: 2
-  wiggleMagnitude: 15
+  targetDist: 0.07
+  smoothSpeed: 0.4
+  trailSpeed: 20000
+  wiggleSpeed: 3
+  wiggleMagnitude: 65
   wiggleDir: {fileID: 1222084639}
 --- !u!120 &840481224
 LineRenderer:
@@ -9373,7 +9357,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dcde22fddd9d3c24f9ac70e330928cd9, type: 2}
+  - {fileID: 2100000, guid: 8e93594de316a514f95a3935c18cd865, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9400,31 +9384,6 @@ LineRenderer:
   - {x: 0.04, y: 0, z: 1}
   - {x: 0.06, y: 0, z: 1}
   - {x: 0.08, y: 0, z: 1}
-  - {x: 0.1, y: 0, z: 1}
-  - {x: 1.12, y: 0, z: 1}
-  - {x: 1.14, y: 0, z: 1}
-  - {x: 1.16, y: 0, z: 1}
-  - {x: 1.18, y: 0, z: 1}
-  - {x: 1.2, y: 0, z: 1}
-  - {x: 1.22, y: 0, z: 1}
-  - {x: 1.24, y: 0, z: 1}
-  - {x: 1.26, y: 0, z: 1}
-  - {x: 1.28, y: 0, z: 1}
-  - {x: 2, y: 0, z: 1}
-  - {x: 2.2, y: 0, z: 1}
-  - {x: 2.22, y: 0, z: 1}
-  - {x: 2.24, y: 0, z: 1}
-  - {x: 2.26, y: 0, z: 1}
-  - {x: 2.28, y: 0, z: 1}
-  - {x: 2.3, y: 0, z: 1}
-  - {x: 2.32, y: 0, z: 1}
-  - {x: 2.34, y: 0, z: 1}
-  - {x: 2.36, y: 0, z: 1}
-  - {x: 2.38, y: 0, z: 1}
-  - {x: 2.4, y: 0, z: 1}
-  - {x: 2.42, y: 0, z: 1}
-  - {x: 2.44, y: 0, z: 1}
-  - {x: 2.46, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -9432,14 +9391,23 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.007425187
-        value: 0.42559436
+        time: 0.013975022
+        value: 0.6169853
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.4976081
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -9768,10 +9736,10 @@ MonoBehaviour:
   maxHitpoint: 15
   pushRecoverySpeed: 0.2
   ySpeed: 0.375
-  xSpeed: 0.5
+  xSpeed: 0.3
   xpValue: 10
-  triggerLength: 2
-  chaseLength: 2
+  triggerLength: 3
+  chaseLength: 3
   filter:
     useTriggers: 0
     useLayerMask: 0
@@ -9867,17 +9835,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 30
+  length: 5
   lineRend: {fileID: 996959634}
   segmentPoses:
   - {x: 0, y: 0, z: 0}
   - {x: 0.2, y: 0, z: 0}
   targetDir: {fileID: 219316328}
-  targetDist: 0.008
-  smoothSpeed: 0.05
+  targetDist: 0.07
+  smoothSpeed: 0.4
   trailSpeed: 20000
-  wiggleSpeed: 2
-  wiggleMagnitude: 60
+  wiggleSpeed: 3
+  wiggleMagnitude: 65
   wiggleDir: {fileID: 1094295566}
 --- !u!120 &996959634
 LineRenderer:
@@ -9926,31 +9894,6 @@ LineRenderer:
   - {x: 0.04, y: 0, z: 0}
   - {x: 0.06, y: 0, z: 0}
   - {x: 0.08, y: 0, z: 0}
-  - {x: 0.1, y: 0, z: 0}
-  - {x: 1.12, y: 0, z: 0}
-  - {x: 1.14, y: 0, z: 0}
-  - {x: 1.16, y: 0, z: 0}
-  - {x: 1.18, y: 0, z: 0}
-  - {x: 1.2, y: 0, z: 0}
-  - {x: 1.22, y: 0, z: 0}
-  - {x: 1.24, y: 0, z: 0}
-  - {x: 1.26, y: 0, z: 0}
-  - {x: 1.28, y: 0, z: 0}
-  - {x: 2, y: 0, z: 0}
-  - {x: 2.2, y: 0, z: 0}
-  - {x: 2.22, y: 0, z: 0}
-  - {x: 2.24, y: 0, z: 0}
-  - {x: 2.26, y: 0, z: 0}
-  - {x: 2.28, y: 0, z: 0}
-  - {x: 2.3, y: 0, z: 0}
-  - {x: 2.32, y: 0, z: 0}
-  - {x: 2.34, y: 0, z: 0}
-  - {x: 2.36, y: 0, z: 0}
-  - {x: 2.38, y: 0, z: 0}
-  - {x: 2.4, y: 0, z: 0}
-  - {x: 2.42, y: 0, z: 0}
-  - {x: 2.44, y: 0, z: 0}
-  - {x: 2.46, y: 0, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -9958,14 +9901,23 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.007425187
-        value: 0.42559436
+        time: 0.013975022
+        value: 0.6169853
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.4976081
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -10695,7 +10647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 30
+  length: 5
   lineRend: {fileID: 1353511103}
   segmentPoses:
   - {x: 0, y: 0, z: 0}
@@ -10704,11 +10656,11 @@ MonoBehaviour:
   - {x: 0.2, y: 0, z: 0}
   - {x: 0.2, y: 0, z: 0}
   targetDir: {fileID: 1915052879}
-  targetDist: 0.008
-  smoothSpeed: 0.05
-  trailSpeed: 200000
-  wiggleSpeed: 2
-  wiggleMagnitude: 15
+  targetDist: 0.07
+  smoothSpeed: 0.4
+  trailSpeed: 20000
+  wiggleSpeed: 3
+  wiggleMagnitude: 65
   wiggleDir: {fileID: 1321257127}
 --- !u!120 &1353511103
 LineRenderer:
@@ -10730,7 +10682,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dcde22fddd9d3c24f9ac70e330928cd9, type: 2}
+  - {fileID: 2100000, guid: 8e93594de316a514f95a3935c18cd865, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10757,31 +10709,6 @@ LineRenderer:
   - {x: 0.04, y: 0, z: 1}
   - {x: 0.06, y: 0, z: 1}
   - {x: 0.08, y: 0, z: 1}
-  - {x: 0.1, y: 0, z: 1}
-  - {x: 1.12, y: 0, z: 1}
-  - {x: 1.14, y: 0, z: 1}
-  - {x: 1.16, y: 0, z: 1}
-  - {x: 1.18, y: 0, z: 1}
-  - {x: 1.2, y: 0, z: 1}
-  - {x: 1.22, y: 0, z: 1}
-  - {x: 1.24, y: 0, z: 1}
-  - {x: 1.26, y: 0, z: 1}
-  - {x: 1.28, y: 0, z: 1}
-  - {x: 2, y: 0, z: 1}
-  - {x: 2.2, y: 0, z: 1}
-  - {x: 2.22, y: 0, z: 1}
-  - {x: 2.24, y: 0, z: 1}
-  - {x: 2.26, y: 0, z: 1}
-  - {x: 2.28, y: 0, z: 1}
-  - {x: 2.3, y: 0, z: 1}
-  - {x: 2.32, y: 0, z: 1}
-  - {x: 2.34, y: 0, z: 1}
-  - {x: 2.36, y: 0, z: 1}
-  - {x: 2.38, y: 0, z: 1}
-  - {x: 2.4, y: 0, z: 1}
-  - {x: 2.42, y: 0, z: 1}
-  - {x: 2.44, y: 0, z: 1}
-  - {x: 2.46, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -10789,14 +10716,23 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.007425187
-        value: 0.42559436
+        time: 0.013975022
+        value: 0.6169853
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.4976081
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -11077,17 +11013,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 30
+  length: 5
   lineRend: {fileID: 1537861585}
   segmentPoses:
   - {x: 0, y: 0, z: 0}
   - {x: 0.2, y: 0, z: 0}
   targetDir: {fileID: 1318370550}
-  targetDist: 0.008
-  smoothSpeed: 0.05
+  targetDist: 0.07
+  smoothSpeed: 0.4
   trailSpeed: 20000
   wiggleSpeed: 2
-  wiggleMagnitude: 60
+  wiggleMagnitude: 65
   wiggleDir: {fileID: 1469844729}
 --- !u!120 &1537861585
 LineRenderer:
@@ -11136,31 +11072,6 @@ LineRenderer:
   - {x: 0.04, y: 0, z: 0}
   - {x: 0.06, y: 0, z: 0}
   - {x: 0.08, y: 0, z: 0}
-  - {x: 0.1, y: 0, z: 0}
-  - {x: 1.12, y: 0, z: 0}
-  - {x: 1.14, y: 0, z: 0}
-  - {x: 1.16, y: 0, z: 0}
-  - {x: 1.18, y: 0, z: 0}
-  - {x: 1.2, y: 0, z: 0}
-  - {x: 1.22, y: 0, z: 0}
-  - {x: 1.24, y: 0, z: 0}
-  - {x: 1.26, y: 0, z: 0}
-  - {x: 1.28, y: 0, z: 0}
-  - {x: 2, y: 0, z: 0}
-  - {x: 2.2, y: 0, z: 0}
-  - {x: 2.22, y: 0, z: 0}
-  - {x: 2.24, y: 0, z: 0}
-  - {x: 2.26, y: 0, z: 0}
-  - {x: 2.28, y: 0, z: 0}
-  - {x: 2.3, y: 0, z: 0}
-  - {x: 2.32, y: 0, z: 0}
-  - {x: 2.34, y: 0, z: 0}
-  - {x: 2.36, y: 0, z: 0}
-  - {x: 2.38, y: 0, z: 0}
-  - {x: 2.4, y: 0, z: 0}
-  - {x: 2.42, y: 0, z: 0}
-  - {x: 2.44, y: 0, z: 0}
-  - {x: 2.46, y: 0, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -11168,14 +11079,23 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.007425187
-        value: 0.42559436
+        time: 0.013975022
+        value: 0.6169853
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.4976081
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -11262,17 +11182,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 30
+  length: 5
   lineRend: {fileID: 1608907938}
   segmentPoses:
   - {x: 0, y: 0, z: 0}
   - {x: 0.2, y: 0, z: 0}
   targetDir: {fileID: 53584170}
-  targetDist: 0.008
-  smoothSpeed: 0.05
+  targetDist: 0.07
+  smoothSpeed: 0.4
   trailSpeed: 20000
-  wiggleSpeed: 2
-  wiggleMagnitude: 60
+  wiggleSpeed: 3
+  wiggleMagnitude: 65
   wiggleDir: {fileID: 1747568303}
 --- !u!120 &1608907938
 LineRenderer:
@@ -11321,31 +11241,6 @@ LineRenderer:
   - {x: 0.04, y: 0, z: 0}
   - {x: 0.06, y: 0, z: 0}
   - {x: 0.08, y: 0, z: 0}
-  - {x: 0.1, y: 0, z: 0}
-  - {x: 1.12, y: 0, z: 0}
-  - {x: 1.14, y: 0, z: 0}
-  - {x: 1.16, y: 0, z: 0}
-  - {x: 1.18, y: 0, z: 0}
-  - {x: 1.2, y: 0, z: 0}
-  - {x: 1.22, y: 0, z: 0}
-  - {x: 1.24, y: 0, z: 0}
-  - {x: 1.26, y: 0, z: 0}
-  - {x: 1.28, y: 0, z: 0}
-  - {x: 2, y: 0, z: 0}
-  - {x: 2.2, y: 0, z: 0}
-  - {x: 2.22, y: 0, z: 0}
-  - {x: 2.24, y: 0, z: 0}
-  - {x: 2.26, y: 0, z: 0}
-  - {x: 2.28, y: 0, z: 0}
-  - {x: 2.3, y: 0, z: 0}
-  - {x: 2.32, y: 0, z: 0}
-  - {x: 2.34, y: 0, z: 0}
-  - {x: 2.36, y: 0, z: 0}
-  - {x: 2.38, y: 0, z: 0}
-  - {x: 2.4, y: 0, z: 0}
-  - {x: 2.42, y: 0, z: 0}
-  - {x: 2.44, y: 0, z: 0}
-  - {x: 2.46, y: 0, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -11353,14 +11248,23 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.007425187
-        value: 0.42559436
+        time: 0.013975022
+        value: 0.6169853
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.4976081
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -11992,7 +11896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 30
+  length: 5
   lineRend: {fileID: 1838580796}
   segmentPoses:
   - {x: 0, y: 0, z: 0}
@@ -12001,11 +11905,11 @@ MonoBehaviour:
   - {x: 0.2, y: 0, z: 0}
   - {x: 0.2, y: 0, z: 0}
   targetDir: {fileID: 2092817943}
-  targetDist: 0.008
-  smoothSpeed: 0.05
-  trailSpeed: 200000
+  targetDist: 0.07
+  smoothSpeed: 0.4
+  trailSpeed: 20000
   wiggleSpeed: 2
-  wiggleMagnitude: 15
+  wiggleMagnitude: 65
   wiggleDir: {fileID: 635174365}
 --- !u!120 &1838580796
 LineRenderer:
@@ -12027,7 +11931,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dcde22fddd9d3c24f9ac70e330928cd9, type: 2}
+  - {fileID: 2100000, guid: 8e93594de316a514f95a3935c18cd865, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12054,31 +11958,6 @@ LineRenderer:
   - {x: 0.04, y: 0, z: 1}
   - {x: 0.06, y: 0, z: 1}
   - {x: 0.08, y: 0, z: 1}
-  - {x: 0.1, y: 0, z: 1}
-  - {x: 1.12, y: 0, z: 1}
-  - {x: 1.14, y: 0, z: 1}
-  - {x: 1.16, y: 0, z: 1}
-  - {x: 1.18, y: 0, z: 1}
-  - {x: 1.2, y: 0, z: 1}
-  - {x: 1.22, y: 0, z: 1}
-  - {x: 1.24, y: 0, z: 1}
-  - {x: 1.26, y: 0, z: 1}
-  - {x: 1.28, y: 0, z: 1}
-  - {x: 2, y: 0, z: 1}
-  - {x: 2.2, y: 0, z: 1}
-  - {x: 2.22, y: 0, z: 1}
-  - {x: 2.24, y: 0, z: 1}
-  - {x: 2.26, y: 0, z: 1}
-  - {x: 2.28, y: 0, z: 1}
-  - {x: 2.3, y: 0, z: 1}
-  - {x: 2.32, y: 0, z: 1}
-  - {x: 2.34, y: 0, z: 1}
-  - {x: 2.36, y: 0, z: 1}
-  - {x: 2.38, y: 0, z: 1}
-  - {x: 2.4, y: 0, z: 1}
-  - {x: 2.42, y: 0, z: 1}
-  - {x: 2.44, y: 0, z: 1}
-  - {x: 2.46, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -12086,14 +11965,23 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.007425187
-        value: 0.42559436
+        time: 0.013975022
+        value: 0.6169853
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.4976081
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -12524,17 +12412,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 30
+  length: 5
   lineRend: {fileID: 1991979019}
   segmentPoses:
   - {x: 0, y: 0, z: 0}
   - {x: 0.2, y: 0, z: 0}
   targetDir: {fileID: 810411733}
-  targetDist: 0.008
-  smoothSpeed: 0.05
+  targetDist: 0.07
+  smoothSpeed: 0.4
   trailSpeed: 20000
   wiggleSpeed: 2
-  wiggleMagnitude: 60
+  wiggleMagnitude: 65
   wiggleDir: {fileID: 1328383896}
 --- !u!120 &1991979019
 LineRenderer:
@@ -12583,31 +12471,6 @@ LineRenderer:
   - {x: 0.04, y: 0, z: 0}
   - {x: 0.06, y: 0, z: 0}
   - {x: 0.08, y: 0, z: 0}
-  - {x: 0.1, y: 0, z: 0}
-  - {x: 1.12, y: 0, z: 0}
-  - {x: 1.14, y: 0, z: 0}
-  - {x: 1.16, y: 0, z: 0}
-  - {x: 1.18, y: 0, z: 0}
-  - {x: 1.2, y: 0, z: 0}
-  - {x: 1.22, y: 0, z: 0}
-  - {x: 1.24, y: 0, z: 0}
-  - {x: 1.26, y: 0, z: 0}
-  - {x: 1.28, y: 0, z: 0}
-  - {x: 2, y: 0, z: 0}
-  - {x: 2.2, y: 0, z: 0}
-  - {x: 2.22, y: 0, z: 0}
-  - {x: 2.24, y: 0, z: 0}
-  - {x: 2.26, y: 0, z: 0}
-  - {x: 2.28, y: 0, z: 0}
-  - {x: 2.3, y: 0, z: 0}
-  - {x: 2.32, y: 0, z: 0}
-  - {x: 2.34, y: 0, z: 0}
-  - {x: 2.36, y: 0, z: 0}
-  - {x: 2.38, y: 0, z: 0}
-  - {x: 2.4, y: 0, z: 0}
-  - {x: 2.42, y: 0, z: 0}
-  - {x: 2.44, y: 0, z: 0}
-  - {x: 2.46, y: 0, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -12615,14 +12478,23 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.007425187
-        value: 0.42559436
+        time: 0.013975022
+        value: 0.6169853
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.4976081
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
