@@ -10,7 +10,7 @@ public class Enemy : Mover
     // logic
     public float triggerLength = 1;
     public float chaseLength = 5;
-    private bool chasing;
+    protected bool chasing;
     private bool collidingWithPlayer;
     private Transform playerTransform;
     private Vector3 startingPosition;
@@ -38,10 +38,6 @@ public class Enemy : Mover
         {
             if(Vector3.Distance(playerTransform.position, startingPosition) < triggerLength)
                 chasing = true;
-                leAnimator.SetTrigger("isChasing");
-
-
-                
                 
             if (chasing)
             {
@@ -59,7 +55,7 @@ public class Enemy : Mover
         {
             UpdateMotor(startingPosition - transform.position);
             chasing = false;
-            leAnimator.SetTrigger("notChasing");
+            
             
         }
 
