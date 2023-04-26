@@ -14,7 +14,9 @@ public class Enemy : Mover
     private bool collidingWithPlayer;
     private Transform playerTransform;
     private Vector3 startingPosition;
-   
+    private Animator leAnimator;
+
+    
     
     //hitbox
     public ContactFilter2D filter;
@@ -31,11 +33,14 @@ public class Enemy : Mover
 
     private void FixedUpdate()
     {
-        //is the player in range?
+          //is the player in range?
         if(Vector3.Distance(playerTransform.position, startingPosition) < chaseLength)
         {
             if(Vector3.Distance(playerTransform.position, startingPosition) < triggerLength)
                 chasing = true;
+                leAnimator.SetTrigger("isChasing");
+
+
                 
                 
             if (chasing)
@@ -54,6 +59,7 @@ public class Enemy : Mover
         {
             UpdateMotor(startingPosition - transform.position);
             chasing = false;
+            leAnimator.SetTrigger("notChasing");
             
         }
 
