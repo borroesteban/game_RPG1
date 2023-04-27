@@ -11,24 +11,39 @@ public class boss : Enemy
 
     private void Update()
     {   
+        bossAnim = GetComponent<Animator>();
+
         for (int i = 0; i < fireballs.Length; i++)
         {
             fireballs[i].position = transform.position + new Vector3(-Mathf.Cos(Time.time * fireballSpeed[i]) * distance, Mathf.Sin(Time.time * fireballSpeed[i]) * distance, 0);
         }
-    }
 
-    private void ischasing()
-    {
-        bossAnim = GetComponent<Animator>();
-        if (chasing == true)
+        if (transform.hasChanged)
         {
-        bossAnim.SetBool("isChasing", true);
+            bossAnim.SetBool("isChasing", true);
+            transform.hasChanged = false;
         }
-        if (chasing == false)
+        else
         {
-        bossAnim.SetBool("isChasing", false);
+            bossAnim.SetBool("isChasing", false);
         }
     }
-    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
