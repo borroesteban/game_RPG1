@@ -1954,7 +1954,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77086154}
   m_LocalRotation: {x: -0, y: -0, z: -0.6442403, w: -0.76482314}
-  m_LocalPosition: {x: 0.01, y: -0.064, z: 0}
+  m_LocalPosition: {x: 0.02, y: -0.016, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2447,7 +2447,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 91251929}
-  - component: {fileID: 91251930}
   m_Layer: 9
   m_Name: tentacle
   m_TagString: Untagged
@@ -2471,28 +2470,6 @@ Transform:
   m_Father: {fileID: 1314568000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &91251930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91251928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  length: 0
-  lineRend: {fileID: 0}
-  segmentPoses: []
-  targetDir: {fileID: 755602422}
-  targetDist: 0
-  smoothSpeed: 0
-  trailSpeed: 0
-  wiggleSpeed: 0
-  wiggleMagnitude: 0
-  wiggleDir: {fileID: 1538166811}
 --- !u!1 &95195404
 GameObject:
   m_ObjectHideFlags: 0
@@ -4093,7 +4070,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147482780}
   m_LocalRotation: {x: -0, y: -0, z: -0.83652616, w: 0.54792696}
-  m_LocalPosition: {x: 0.0024848979, y: -0.001108594, z: 0}
+  m_LocalPosition: {x: 0.023, y: 0.026, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5467,7 +5444,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 207569348}
-  - component: {fileID: 207569349}
   m_Layer: 9
   m_Name: tentacle
   m_TagString: Untagged
@@ -5491,28 +5467,6 @@ Transform:
   m_Father: {fileID: 1266110821}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &207569349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207569347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  length: 0
-  lineRend: {fileID: 0}
-  segmentPoses: []
-  targetDir: {fileID: 962321346}
-  targetDist: 0
-  smoothSpeed: 0
-  trailSpeed: 0
-  wiggleSpeed: 0
-  wiggleMagnitude: 0
-  wiggleDir: {fileID: 2123677165}
 --- !u!1 &207694974
 GameObject:
   m_ObjectHideFlags: 0
@@ -17286,7 +17240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481726466}
   m_LocalRotation: {x: 0, y: 0, z: -0.2709432, w: 0.96259534}
-  m_LocalPosition: {x: -0.083, y: -0.082, z: 0}
+  m_LocalPosition: {x: -0.011, y: -0.007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18428,7 +18382,7 @@ Transform:
   m_Children:
   - {fileID: 1282019734}
   m_Father: {fileID: 966769821}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &515070906
 MonoBehaviour:
@@ -25447,11 +25401,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728227243}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.625492, y: -0.042325668, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.93333334, y: 0.93333334, z: 0.93333334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 966769821}
+  m_Father: {fileID: 1457788350}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &728227245
@@ -29059,7 +29013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878550393}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.044, y: 0.05, z: 0}
+  m_LocalPosition: {x: -0.002, y: 0.002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29310,7 +29264,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 893679470}
-  - component: {fileID: 893679471}
   m_Layer: 9
   m_Name: tentacle
   m_TagString: Untagged
@@ -29334,28 +29287,6 @@ Transform:
   m_Father: {fileID: 861561772}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &893679471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893679469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  length: 0
-  lineRend: {fileID: 0}
-  segmentPoses: []
-  targetDir: {fileID: 1544951116}
-  targetDist: 0
-  smoothSpeed: 0
-  trailSpeed: 0
-  wiggleSpeed: 0
-  wiggleMagnitude: 0
-  wiggleDir: {fileID: 1514597504}
 --- !u!1 &893692642
 GameObject:
   m_ObjectHideFlags: 0
@@ -30267,7 +30198,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929238359}
   m_LocalRotation: {x: 0, y: 0, z: 0.2709432, w: 0.96259534}
-  m_LocalPosition: {x: -0.017, y: -0.007, z: 0}
+  m_LocalPosition: {x: 0, y: 0.003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30837,7 +30768,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &966769820
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30910,7 +30841,6 @@ Transform:
   - {fileID: 1608907936}
   - {fileID: 1537861583}
   - {fileID: 996959632}
-  - {fileID: 728227244}
   - {fileID: 515070905}
   m_Father: {fileID: 708307836}
   m_RootOrder: 0
@@ -34278,7 +34208,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1132495119}
-  - component: {fileID: 1132495120}
   m_Layer: 9
   m_Name: tentacle
   m_TagString: Untagged
@@ -34302,28 +34231,6 @@ Transform:
   m_Father: {fileID: 1236405727}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1132495120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1132495118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  length: 0
-  lineRend: {fileID: 0}
-  segmentPoses: []
-  targetDir: {fileID: 1166849773}
-  targetDist: 0
-  smoothSpeed: 0
-  trailSpeed: 0
-  wiggleSpeed: 0
-  wiggleMagnitude: 0
-  wiggleDir: {fileID: 1722532267}
 --- !u!1 &1135587778
 GameObject:
   m_ObjectHideFlags: 0
@@ -35321,7 +35228,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166849772}
   m_LocalRotation: {x: -0, y: -0, z: -0.6849161, w: 0.728622}
-  m_LocalPosition: {x: 0.0100000035, y: -0.0019999966, z: 0}
+  m_LocalPosition: {x: -0, y: 0.048, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35598,7 +35505,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1187845780}
-  - component: {fileID: 1187845781}
   m_Layer: 9
   m_Name: tentacle
   m_TagString: Untagged
@@ -35622,28 +35528,6 @@ Transform:
   m_Father: {fileID: 668136183}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1187845781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187845779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  length: 0
-  lineRend: {fileID: 0}
-  segmentPoses: []
-  targetDir: {fileID: 147482781}
-  targetDist: 0
-  smoothSpeed: 0
-  trailSpeed: 0
-  wiggleSpeed: 0
-  wiggleMagnitude: 0
-  wiggleDir: {fileID: 929238360}
 --- !u!1 &1188756734
 GameObject:
   m_ObjectHideFlags: 0
@@ -42459,7 +42343,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457788345}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -42656,7 +42540,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d80fcac00574f19439b54fa262b60ead, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.32, y: 0.32}
@@ -42685,6 +42569,7 @@ Transform:
   - {fileID: 668136183}
   - {fileID: 1386792106}
   - {fileID: 1644763365}
+  - {fileID: 728227244}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -43333,7 +43218,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1480385875}
-  - component: {fileID: 1480385876}
   m_Layer: 9
   m_Name: tentacle
   m_TagString: Untagged
@@ -43349,7 +43233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480385874}
   m_LocalRotation: {x: -0, y: -0, z: 0.39567706, w: 0.91838974}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.009, y: -0.011, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43357,28 +43241,6 @@ Transform:
   m_Father: {fileID: 1386792106}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 46.616}
---- !u!114 &1480385876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480385874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  length: 0
-  lineRend: {fileID: 0}
-  segmentPoses: []
-  targetDir: {fileID: 77086155}
-  targetDist: 0
-  smoothSpeed: 0
-  trailSpeed: 0
-  wiggleSpeed: 0
-  wiggleMagnitude: 0
-  wiggleDir: {fileID: 878550394}
 --- !u!1 &1483220887
 GameObject:
   m_ObjectHideFlags: 0
@@ -45508,7 +45370,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1602199405}
-  - component: {fileID: 1602199406}
   m_Layer: 9
   m_Name: tentacle
   m_TagString: Untagged
@@ -45532,28 +45393,6 @@ Transform:
   m_Father: {fileID: 948769022}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1602199406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1602199404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  length: 0
-  lineRend: {fileID: 0}
-  segmentPoses: []
-  targetDir: {fileID: 1862838782}
-  targetDist: 0
-  smoothSpeed: 0
-  trailSpeed: 0
-  wiggleSpeed: 0
-  wiggleMagnitude: 0
-  wiggleDir: {fileID: 1096763084}
 --- !u!1 &1602201321
 GameObject:
   m_ObjectHideFlags: 0
@@ -46801,7 +46640,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651660566}
   m_LocalRotation: {x: -0, y: -0, z: 0.39830628, w: -0.9172525}
-  m_LocalPosition: {x: 0.031, y: 0.067, z: 0}
+  m_LocalPosition: {x: 0.003, y: 0.029, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -47272,7 +47111,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1680509932}
-  - component: {fileID: 1680509933}
   m_Layer: 9
   m_Name: tentacle
   m_TagString: Untagged
@@ -47288,7 +47126,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680509931}
   m_LocalRotation: {x: -0, y: -0, z: 0.39567706, w: 0.91838974}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.016, y: -0.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -47296,28 +47134,6 @@ Transform:
   m_Father: {fileID: 1644763365}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 46.616}
---- !u!114 &1680509933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680509931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f35677cb6c743b4eaaf388d6e92f539, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  length: 0
-  lineRend: {fileID: 0}
-  segmentPoses: []
-  targetDir: {fileID: 1651660567}
-  targetDist: 0
-  smoothSpeed: 0
-  trailSpeed: 0
-  wiggleSpeed: 0
-  wiggleMagnitude: 0
-  wiggleDir: {fileID: 481726467}
 --- !u!1 &1683798325
 GameObject:
   m_ObjectHideFlags: 0
@@ -47925,7 +47741,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722532266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.018, y: -0.034, z: 0}
+  m_LocalPosition: {x: -0.011, y: -0.007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
