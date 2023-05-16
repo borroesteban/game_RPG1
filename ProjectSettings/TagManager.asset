@@ -39,36 +39,36 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: collision
+  - name: L00_collision
     uniqueID: 2608013739
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: bg
+  - name: L02_Bg_Back1
     uniqueID: 2283314723
     locked: 0
-  - name: wall
+  - name: L03_Bg_Back2
     uniqueID: 1140542195
+    locked: 0
+  - name: L04_Wall_Back1
+    uniqueID: 3933179777
+    locked: 0
+  - name: L05_Wall_Back2
+    uniqueID: 2216395625
     locked: 0
   - name: player
     uniqueID: 3698853459
     locked: 0
-  - name: bg covering player
-    uniqueID: 3933179777
+  - name: L07_Bg_Front1
+    uniqueID: 1413638773
     locked: 0
-  - name: wall covering player
-    uniqueID: 2216395625
-    locked: 0
-  - name: New Layer 7
-    uniqueID: 3065318769
-    locked: 0
-  - name: New Layer 8
-    uniqueID: 4118856179
-    locked: 0
-  - name: New Layer 9
+  - name: L08_Bg_Front2
     uniqueID: 332061077
     locked: 0
-  - name: New Layer 10
-    uniqueID: 2944251211
+  - name: L09_Wall_Front1
+    uniqueID: 3065318769
+    locked: 0
+  - name: L10_Wall_Front2
+    uniqueID: 4118856179
     locked: 0
