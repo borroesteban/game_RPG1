@@ -2602,7 +2602,7 @@ TextureImporter:
         y: 90
         width: 8
         height: 13
-      alignment: 9
+      alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -2623,8 +2623,8 @@ TextureImporter:
         y: 90
         width: 8
         height: 13
-      alignment: 9
-      pivot: {x: 0.4685669, y: 0.470986}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2644,8 +2644,8 @@ TextureImporter:
         y: 90
         width: 8
         height: 13
-      alignment: 9
-      pivot: {x: 0.4685669, y: 0.470986}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3245,6 +3245,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: torch_Holder_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 129
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ec7aef1177c8742b7502bef97923e3
+      internalID: -1240267338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -3370,6 +3391,7 @@ TextureImporter:
       torch_6: -481218424
       torch_7: 2049962157
       torch_8: -1514740677
+      torch_Holder_1: -1240267338
       torch_holder_0: 247036869
       wall_0: -1018770647
       wall_1: 970917203
