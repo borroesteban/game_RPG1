@@ -3254,7 +3254,7 @@ TextureImporter:
         width: 8
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3262,6 +3262,132 @@ TextureImporter:
       bones: []
       spriteID: 29ec7aef1177c8742b7502bef97923e3
       internalID: -1240267338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_vertical_1_flipped
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafac5b75b1390942a280ab5bc7e2971
+      internalID: 1321019966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_vertical_2_flipped
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceabe7b4a70c79f4cb94a1db2d2d13b6
+      internalID: 711593240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_corner_left
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d768bfbefd99744089dee0d72507b8a
+      internalID: 429827988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_corner_right
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355e06f466f823a4fbcca8c8a6f384ad
+      internalID: 595682896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_corner_left_brown
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc7263845ede38489c38e72bf7a62d5
+      internalID: 1833620510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_corner_right_brown
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bc0196a6b2f8f458225ca0d696d4df
+      internalID: -435994119
       vertices: []
       indices: 
       edges: []
@@ -3403,6 +3529,10 @@ TextureImporter:
       wall_7: 1630478708
       wall_8: 1007443613
       wall_9: 691379112
+      wall_corner_left: 429827988
+      wall_corner_left_brown: 1833620510
+      wall_corner_right: 595682896
+      wall_corner_right_brown: -435994119
       wall_shadow_0: 1653652872
       wall_shadow_1: -982477310
       wall_shadow_2: -2081206125
@@ -3414,7 +3544,9 @@ TextureImporter:
       wall_vertical_: -1068743455
       wall_vertical_0: -1025571487
       wall_vertical_1: 990053726
+      wall_vertical_1_flipped: 1321019966
       wall_vertical_2: 872101554
+      wall_vertical_2_flipped: 711593240
       wall_vertical_3: 2058017958
       wall_vertical_4: 635175268
       wall_vertical_bis_0: 1065239766
