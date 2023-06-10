@@ -11,19 +11,20 @@ public class pickUpTorch : MonoBehaviour
 //object1. transform. parent = object2. transform.
 private Transform torchTransformComponent;
 private BoxCollider2D torchColliderComponent;
-
+private Transform playerTransform;
 
     // Update is called once per frame
    
     //pick up torch on contact
     private void OnTriggerEnter2D(Collider2D other)
-    {
+    {   
+        playerTransform = GameManager.instance.player.transform;
         torchTransformComponent = GetComponent<Transform>();        
         torchColliderComponent = GetComponent<BoxCollider2D>();
         if (other.tag == "Fighter")
         {
-            torchTransformComponent.parent = other.transform;
-            torchTransformComponent.position = other.transform.position + new Vector3(0.06f,0.06f,0);
+            torchTransformComponent.parent = playerTransform;
+            torchTransformComponent.position = playerTransform.position + new Vector3(0.06f,0.06f,0);
             
         }
 
