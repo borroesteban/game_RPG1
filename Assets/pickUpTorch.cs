@@ -14,19 +14,17 @@ private BoxCollider2D torchColliderComponent;
 
 
     // Update is called once per frame
-    void Update()
-    {
-        torchTransformComponent = GetComponent<Transform>();        
-        torchColliderComponent = GetComponent<BoxCollider2D>();
-        
-    }
+   
     //pick up torch on contact
     private void OnTriggerEnter2D(Collider2D other)
     {
+        torchTransformComponent = GetComponent<Transform>();        
+        torchColliderComponent = GetComponent<BoxCollider2D>();
         if (other.tag == "Fighter")
         {
             torchTransformComponent.parent = other.transform;
-            torchTransformComponent.position = other.transform.position;
+            torchTransformComponent.position = other.transform.position + new Vector3(0.06f,0.06f,0);
+            
         }
 
     }
