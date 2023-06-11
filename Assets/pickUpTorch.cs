@@ -9,12 +9,12 @@ public class pickUpTorch : MonoBehaviour
 //make an oncollide function that sets the torch as collider children
 //destroy torch after 2 minutes
 //object1. transform. parent = object2. transform.
+
+/* 
 private Transform torchTransformComponent;
 private BoxCollider2D torchColliderComponent;
 private Transform playerTransform;
 
-    // Update is called once per frame
-   
     //pick up torch on contact
     private void OnTriggerEnter2D(Collider2D other)
     {   
@@ -25,6 +25,31 @@ private Transform playerTransform;
         {
             torchTransformComponent.parent = playerTransform;
             torchTransformComponent.position = playerTransform.position + new Vector3(0.06f,0.06f,0);
+            
+        }
+
+    }
+}
+*/
+
+private Transform torchTransformComponent;
+private Transform playerTransform;
+private Transform playerTorchHolder;
+private BoxCollider2D torchColliderComponent;
+
+    // Update is called once per frame
+   
+    //pick up torch on contact
+    private void OnTriggerEnter2D(Collider2D other)
+    {   
+
+        torchTransformComponent = GetComponent<Transform>();        
+        torchColliderComponent = GetComponent<BoxCollider2D>();
+        playerTorchHolder = GameObject.Find("Player/torchHolder").transform;
+        if (other.tag == "torchGrabber")
+        {
+            torchTransformComponent.parent = playerTorchHolder; //playerTransform;
+            torchTransformComponent.position = playerTorchHolder.transform.position;
             
         }
 
