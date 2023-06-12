@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class pickUpTorch : MonoBehaviour
 {
@@ -36,6 +37,17 @@ private Transform torchTransformComponent;
 private Transform playerTransform;
 private Transform playerTorchHolder;
 private BoxCollider2D torchColliderComponent;
+private bool picked;
+public float torchDuration;
+private float counterClock;
+private float lightValue;
+private float value;
+private Transform torchLight;
+private Light2D torchComponent;
+private Transform flickerTorch;
+private Light2D torch;
+
+
 
     // Update is called once per frame
    
@@ -48,10 +60,30 @@ private BoxCollider2D torchColliderComponent;
         playerTorchHolder = GameObject.Find("Player/torchHolder").transform;
         if (other.tag == "torchGrabber")
         {
-            torchTransformComponent.parent = playerTorchHolder; //playerTransform;
+            torchTransformComponent.parent = playerTorchHolder;
             torchTransformComponent.position = playerTorchHolder.transform.position;
-            
+            picked = true;
+           
         }
+    }
 
+    void Update()
+    {
+         torchDeathOverTime();
+    }
+
+    private void torchDeathOverTime()
+    {
+        if (picked == true)
+        {
+            flickerTorch = playerTorchHolder.transform.GetChild(0);
+            
+            torchLight = flickerTorch.GetChild(0);
+            torch = torchLight.GetComponent<Light2D>();
+            counterClock += Time.deltaTime / torchDuration;
+            lightValue = Mathf.Lerp(0.29f, 0.01f, counterClock);
+            torch.intensity = lightValue;
+        }
     }
 }
+

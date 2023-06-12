@@ -96,6 +96,9 @@ GameObject:
   - component: {fileID: 984768141848678617}
   - component: {fileID: 984768141848678616}
   - component: {fileID: 984768141848678618}
+  - component: {fileID: 7582723042088055671}
+  - component: {fileID: 7582723042088055672}
+  - component: {fileID: 7582723042088055673}
   m_Layer: 0
   m_Name: torchFIre_with_shadows 1
   m_TagString: Untagged
@@ -160,7 +163,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -596113837
   m_SortingLayer: 5
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: 1184896549, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -208,6 +211,66 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!50 &7582723042088055671
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246756922873100311}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &7582723042088055672
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246756922873100311}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0052695274, y: -0.08606975}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.08080808, y: 0.13131313}
+    newSize: {x: 0.08080808, y: 0.13131313}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.11945248, y: 0.30345264}
+  m_EdgeRadius: 0
+--- !u!114 &7582723042088055673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246756922873100311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d859fb23ae2921e41824157de4414e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torchDuration: 10
 --- !u!1 &7246756922960046058
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,9 +336,9 @@ MonoBehaviour:
   m_NormalMapQuality: 0
   m_UseNormalMap: 0
   m_ShadowIntensityEnabled: 1
-  m_ShadowIntensity: 1
+  m_ShadowIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 1
-  m_ShadowVolumeIntensity: 0.522
+  m_ShadowVolumeIntensity: 0
   m_Vertices:
   - position: {x: 0.9985302, y: 0.9985302, z: 0}
     color: {r: 0.70710677, g: 0.70710677, b: 0, a: 0}
