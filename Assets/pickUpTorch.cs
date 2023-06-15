@@ -91,10 +91,12 @@ public int _speed;
 //next i'll have to figure how to deatch the transform from the torchholder in player so it wont follow after throw
     private void torchThrow()
     {
-        if(Input.GetMouseButton(1))
+        if(Input.GetMouseButton(1) && picked==true) 
         {
         flickerTorch = playerTorchHolder.transform.GetChild(0);
+        flickerTorch.transform.SetParent(GameObject.Find("torches").transform);
         flickerTorch.transform.Translate(new Vector3(1,0,0) * _speed * Time.deltaTime);
+        picked=false;
         }
     }
     
