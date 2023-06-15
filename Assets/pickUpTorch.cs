@@ -47,16 +47,15 @@ private Transform torchLight;
 private Light2D torchComponent;
 private Transform flickerTorch;
 private Light2D torch;
-public Animator animator;
+
+public int _speed;
 
 
 
-    // Update is called once per frame
-   
+    //Update is called once per frame
     //pick up torch on contact
     private void OnTriggerEnter2D(Collider2D other)
     {   
-
         torchTransformComponent = GetComponent<Transform>();        
         torchColliderComponent = GetComponent<BoxCollider2D>();
         playerTorchHolder = GameObject.Find("Player/torchHolder").transform;
@@ -64,32 +63,38 @@ public Animator animator;
         {
             torchTransformComponent.parent = playerTorchHolder;
             torchTransformComponent.position = playerTorchHolder.transform.position;
-            picked = true;
-           
+            picked = true;       
         }
     }
 
     void Update()
     {
-         torchDeathOverTime();
-         if(Input.GetMouseButton(1))
-         {
-            animator.SetTrigger("isthrown");
-         }
+    torchDeathOverTime();
+    torchThrow();    
     }
 
     private void torchDeathOverTime()
     {
         if (picked == true)
         {
-            lifeTime = torchDuration;
-            flickerTorch = playerTorchHolder.transform.GetChild(0);
-            torchLight = flickerTorch.GetChild(0);
-            torch = torchLight.GetComponent<Light2D>();
-            counterClock += Time.deltaTime / torchDuration;
-            lightValue = Mathf.Lerp(0.29f, 0.01f, counterClock);
-            torch.intensity = lightValue;
-            Destroy(gameObject, lifeTime);
+        lifeTime = torchDuration;
+        flickerTorch = playerTorchHolder.transform.GetChild(0);
+        torchLight = flickerTorch.GetChild(0);
+        torch = torchLight.GetComponent<Light2D>();
+        counterClock += Time.deltaTime / torchDuration;
+        lightValue = Mathf.Lerp(0.29f, 0.01f, counterClock);
+        torch.intensity = lightValue;
+        Destroy(gameObject, lifeTime);
+        }
+    }
+//bedtime now
+//next i'll have to figure how to deatch the transform from the torchholder in player so it wont follow after throw
+    private void torchThrow()
+    {
+        if(Input.GetMouseButton(1))
+        {
+        flickerTorch = playerTorchHolder.transform.GetChild(0);
+        flickerTorch.transform.Translate(new Vector3(1,0,0) * _speed * Time.deltaTime);
         }
     }
     
