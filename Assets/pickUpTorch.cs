@@ -47,6 +47,7 @@ private Transform torchLight;
 private Light2D torchComponent;
 private Transform flickerTorch;
 private Light2D torch;
+public Animator animator;
 
 
 
@@ -71,6 +72,10 @@ private Light2D torch;
     void Update()
     {
          torchDeathOverTime();
+         if(Input.GetMouseButton(1))
+         {
+            animator.SetTrigger("isthrown");
+         }
     }
 
     private void torchDeathOverTime()
@@ -88,5 +93,9 @@ private Light2D torch;
         }
     }
     
+
 }
+
+
+
 
