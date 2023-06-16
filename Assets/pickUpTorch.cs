@@ -43,10 +43,12 @@ private float lifeTime;
 private float counterClock;
 private float lightValue;
 private float value;
+public int TorchThrowVelocity;
 private Transform torchLight;
 private Light2D torchComponent;
 private Transform flickerTorch;
 private Light2D torch;
+private Vector3 facingDirection;
 
 public int _speed;
 
@@ -87,16 +89,26 @@ public int _speed;
         Destroy(gameObject, lifeTime);
         }
     }
-//bedtime now
-//next i'll have to figure how to deatch the transform from the torchholder in player so it wont follow after throw
+
     private void torchThrow()
     {
+        facingDirection=GameObject.Find("Player").transform.localScale;
         if(Input.GetMouseButton(1) && picked==true) 
         {
-        flickerTorch = playerTorchHolder.transform.GetChild(0);
-        flickerTorch.transform.SetParent(GameObject.Find("torches").transform);
-        flickerTorch.transform.Translate(new Vector3(1,0,0) * _speed * Time.deltaTime);
-        picked=false;
+            if(facingDirection.x > 0)
+            {
+                flickerTorch = playerTorchHolder.transform.GetChild(0);
+                flickerTorch.transform.SetParent(GameObject.Find("torches").transform);
+                flickerTorch.transform.Translate(Vector3.right *_speed * Time.deltaTime);
+                picked=false;
+            }
+            if (facingDirection.x < 0)
+            {
+                flickerTorch = playerTorchHolder.transform.GetChild(0);
+                flickerTorch.transform.SetParent(GameObject.Find("torches").transform);
+                flickerTorch.transform.Translate((new Vector3(-1,0,0) * _speed) * Time.deltaTime);
+                picked=false;
+            }
         }
     }
     
