@@ -43,13 +43,13 @@ private float lifeTime;
 private float counterClock;
 private float lightValue;
 private float value;
-public int TorchThrowVelocity;
+
 private Transform torchLight;
-private Light2D torchComponent;
+
 private Transform flickerTorch;
 private Light2D torch;
 private Vector3 facingDirection;
-private Transform target;
+private Vector3 target;
 
 public float speed;
 public float distance;
@@ -99,10 +99,11 @@ public float distance;
         {
             if(facingDirection.x > 0)
             {
+                target = Input.mousePosition;
                 flickerTorch = playerTorchHolder.transform.GetChild(0);
                 flickerTorch.transform.SetParent(GameObject.Find("torches").transform);
-                flickerTorch.transform.Translate((new Vector3(distance,0,0)) * speed*Time.deltaTime);
-                //flickerTorch.transform.position = Vector3.MoveTowards(flickerTorch.transform.position, , speed*Time.deltaTime);
+                //flickerTorch.transform.Translate((new Vector3(distance,0,0)) * speed*Time.deltaTime);
+                flickerTorch.transform.position = Vector3.MoveTowards(flickerTorch.transform.position, target, distance);
                 picked=false;
             }
 /*             if (facingDirection.x < 0)
