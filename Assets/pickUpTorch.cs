@@ -49,8 +49,10 @@ private Light2D torchComponent;
 private Transform flickerTorch;
 private Light2D torch;
 private Vector3 facingDirection;
+private Transform target;
 
-public int _speed;
+public float speed;
+public float distance;
 
 
 
@@ -99,16 +101,17 @@ public int _speed;
             {
                 flickerTorch = playerTorchHolder.transform.GetChild(0);
                 flickerTorch.transform.SetParent(GameObject.Find("torches").transform);
-                flickerTorch.transform.Translate(Vector3.right *_speed * Time.deltaTime);
+                flickerTorch.transform.Translate((new Vector3(distance,0,0)) * speed*Time.deltaTime);
+                //flickerTorch.transform.position = Vector3.MoveTowards(flickerTorch.transform.position, , speed*Time.deltaTime);
                 picked=false;
             }
-            if (facingDirection.x < 0)
+/*             if (facingDirection.x < 0)
             {
                 flickerTorch = playerTorchHolder.transform.GetChild(0);
                 flickerTorch.transform.SetParent(GameObject.Find("torches").transform);
                 flickerTorch.transform.Translate((new Vector3(-1,0,0) * _speed) * Time.deltaTime);
                 picked=false;
-            }
+            } */
         }
     }
     
