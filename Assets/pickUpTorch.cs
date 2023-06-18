@@ -40,6 +40,7 @@ private Transform torchLight;
 private Transform flickerTorch;
 private Vector3 facingDirection;
 private Vector3 target;
+private Vector3 torchCurrentPosition;
 private Light2D torch;
 private BoxCollider2D torchColliderComponent;
 private bool picked;
@@ -67,20 +68,42 @@ Camera cam;
         {
             torchTransformComponent.parent = playerTorchHolder;
             torchTransformComponent.position = playerTorchHolder.transform.position;
+            
             picked = true;       
         }
+    }
+
+    private void Start()
+    {
+        picked = false;
     }
 
     public void Awake()
     {
     cam = Camera.main;
+    
     }
 
     void Update()
     {
-    torchDeathOverTime();
-    torchThrow();
-    torchMovement();
+        torchDeathOverTime();
+        if(Input.GetMouseButton(1) && picked==true) 
+        {
+            torchCurrentPosition=flickerTorch.transform.position;
+            flickerTorch.transform.parent = null;   
+            getMousePosition();
+            
+            //
+            //flickerTorch.transform.position = Vector3.LerpUnclamped (transform.position, target, speed);
+            //speed=speed + 0.1f;   
+
+            //transform.Translate(Vector3.Normalize(target - transform.position) * speed);   
+            //speed=speed + 0.01f;
+        }
+        if (torchCurrentPosition != target && picked==true)
+            {
+                torchCurrentPosition = Vector3.Lerp (torchCurrentPosition, target, speed);
+            }
     }
 
     private void torchDeathOverTime()
@@ -98,7 +121,27 @@ Camera cam;
         }
     }
 
-    private void torchThrow()
+/*     private void torchMovement()
+    {
+        if (picked == true)
+            {
+            flickerTorch.transform.position = Vector3.Lerp (transform.position, target, speed); //this works
+            }
+    } */
+
+    private void getMousePosition()
+    {
+            Vector3 worldPoint = Input.mousePosition;
+            worldPoint.z = Mathf.Abs(cam.transform.position.z);
+            Vector3 mouseWorldPosition = cam.ScreenToWorldPoint(worldPoint);
+            mouseWorldPosition.z = 0f;
+            target = mouseWorldPosition;
+            Instantiate(go, mouseWorldPosition, Quaternion.identity);
+    }
+}
+
+
+/*     private void torchThrow()
     {
         facingDirection=GameObject.Find("Player").transform.localScale;
         if(Input.GetMouseButton(1) && picked==true) 
@@ -108,12 +151,7 @@ Camera cam;
             Vector3 mouseWorldPosition = cam.ScreenToWorldPoint(worldPoint);
             mouseWorldPosition.z = 0f;
             target = mouseWorldPosition;
-            Instantiate(go, mouseWorldPosition, Quaternion.identity);
-            executeThrow=true;
-            /* if(facingDirection.x > 0)
-            {
-                torchMovement();
-            } */
+            Instantiate(go, mouseWorldPosition, Quaternion.identity);     
         }
     }
             
@@ -126,9 +164,7 @@ Camera cam;
         flickerTorch.transform.position = Vector3.Lerp (transform.position, target, speed); //this works
         picked=false;
         }
-        executeThrow=false;
-    }
-}
+    } */
 
 
             //flickerTorch.transform.position = Vector3.MoveTowards(flickerTorch.transform.position, target, distance*Time.deltaTime); //anda mas o menos
