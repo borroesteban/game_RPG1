@@ -36,23 +36,23 @@ private Transform playerTransform;
 private Transform torchTransformComponent;
 private Transform playerTransform;
 private Transform playerTorchHolder;
+private Transform torchLight;
+private Transform flickerTorch;
+private Vector3 facingDirection;
+private Vector3 target;
+private Light2D torch;
 private BoxCollider2D torchColliderComponent;
 private bool picked;
+public bool executeThrow;
 public float torchDuration;
 private float lifeTime;
 private float counterClock;
 private float lightValue;
 private float value;
-
-private Transform torchLight;
-
-private Transform flickerTorch;
-private Light2D torch;
-private Vector3 facingDirection;
-private Vector3 target;
-
 public float speed;
 public float distance;
+public GameObject go;
+Camera cam;
 
 
 
@@ -71,10 +71,16 @@ public float distance;
         }
     }
 
+    public void Awake()
+    {
+    cam = Camera.main;
+    }
+
     void Update()
     {
     torchDeathOverTime();
-    torchThrow();    
+    torchThrow();
+    torchMovement();
     }
 
     private void torchDeathOverTime()
@@ -97,15 +103,39 @@ public float distance;
         facingDirection=GameObject.Find("Player").transform.localScale;
         if(Input.GetMouseButton(1) && picked==true) 
         {
-            if(facingDirection.x > 0)
+            Vector3 worldPoint = Input.mousePosition;
+            worldPoint.z = Mathf.Abs(cam.transform.position.z);
+            Vector3 mouseWorldPosition = cam.ScreenToWorldPoint(worldPoint);
+            mouseWorldPosition.z = 0f;
+            target = mouseWorldPosition;
+            Instantiate(go, mouseWorldPosition, Quaternion.identity);
+            executeThrow=true;
+            /* if(facingDirection.x > 0)
             {
-                target = Input.mousePosition;
-                flickerTorch = playerTorchHolder.transform.GetChild(0);
-                flickerTorch.transform.SetParent(GameObject.Find("torches").transform);
-                //flickerTorch.transform.Translate((new Vector3(distance,0,0)) * speed*Time.deltaTime);
-                flickerTorch.transform.position = Vector3.MoveTowards(flickerTorch.transform.position, target, distance);
-                picked=false;
-            }
+                torchMovement();
+            } */
+        }
+    }
+            
+    private void torchMovement()
+    {   
+        if (executeThrow==true)
+        {
+        flickerTorch = playerTorchHolder.transform.GetChild(0);
+        flickerTorch.transform.parent = null;
+        flickerTorch.transform.position = Vector3.Lerp (transform.position, target, speed); //this works
+        picked=false;
+        }
+        executeThrow=false;
+    }
+}
+
+
+            //flickerTorch.transform.position = Vector3.MoveTowards(flickerTorch.transform.position, target, distance*Time.deltaTime); //anda mas o menos
+            //flickerTorch.transform.position = target; //this works
+            //flickerTorch.transform.position = Vector3.Lerp (transform.position, target, speed); //this works
+            //flickerTorch.transform.Translate(target*Time.deltaTime); //not working
+ //flickerTorch.transform.Translate((new Vector3(distance,0,0)) * speed*Time.deltaTime);
 /*             if (facingDirection.x < 0)
             {
                 flickerTorch = playerTorchHolder.transform.GetChild(0);
@@ -113,11 +143,6 @@ public float distance;
                 flickerTorch.transform.Translate((new Vector3(-1,0,0) * _speed) * Time.deltaTime);
                 picked=false;
             } */
-        }
-    }
-    
-
-}
 
 
 

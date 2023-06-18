@@ -15,7 +15,7 @@ public class instanciateobjectonclick : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
             Vector3 worldPoint = Input.mousePosition;
             worldPoint.z = Mathf.Abs(cam.transform.position.z);
