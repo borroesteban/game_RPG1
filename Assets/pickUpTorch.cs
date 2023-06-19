@@ -34,7 +34,6 @@ private Transform playerTransform;
 */
 
 private Transform torchTransformComponent;
-
 private Transform playerTorchHolder;
 private Transform torchLight;
 private Transform flickerTorch;
@@ -49,7 +48,12 @@ private float lifeTime;
 private float counterClock;
 private float lightValue;
 
-
+//stuff used for throwing function
+private GameObject itemHolding;
+public GameObject destroyEffect;
+public Vector3 Direction { get; set; }
+private Vector3 target;
+Camera cam;
 
 
 
@@ -63,15 +67,48 @@ private float lightValue;
         {
             torchTransformComponent.parent = playerTorchHolder;
             torchTransformComponent.position = playerTorchHolder.transform.position;
+            itemHolding = torchTransformComponent.gameObject;
             
             picked = true;       
         }
     }
-
+    public void Awake()
+    {
+        cam = Camera.main;
+    }
 
     void Update()
     {
         torchDeathOverTime();
+
+
+
+
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            if (itemHolding)
+            {
+                StartCoroutine(ThrowItem(itemHolding));
+            }
+        }
+
+        IEnumerator ThrowItem(GameObject itemHolding)
+        {
+            getMousePosition();
+            Vector3 startPoint = itemHolding.transform.position;
+            Vector3 endPoint = target;
+            itemHolding.transform.parent = null;
+            for (int i = 0; i < 25; i++)
+            {
+                itemHolding.transform.position = Vector3.Lerp(startPoint, endPoint, i * .04f);
+                yield return null;
+            }
+            if (itemHolding.GetComponent<Rigidbody2D>())
+                itemHolding.GetComponent<Rigidbody2D>().simulated = true;
+            Instantiate(destroyEffect, itemHolding.transform.position, Quaternion.identity);
+            Destroy(itemHolding);
+        }
     }
 
     private void torchDeathOverTime()
@@ -88,5 +125,14 @@ private float lightValue;
         Destroy(gameObject, lifeTime);
         }
     }
+        private void getMousePosition()
+    {
+            Vector3 worldPoint = Input.mousePosition;
+            worldPoint.z = Mathf.Abs(cam.transform.position.z);
+            Vector3 mouseWorldPosition = cam.ScreenToWorldPoint(worldPoint);
+            mouseWorldPosition.z = 0f;
+            target = mouseWorldPosition;
+    }
+
 }
 
