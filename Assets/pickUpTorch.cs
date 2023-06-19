@@ -116,13 +116,22 @@ Camera cam;
         if (picked == true)
         {
         lifeTime = torchDuration;
-        flickerTorch = playerTorchHolder.transform.GetChild(0);
-        torchLight = flickerTorch.GetChild(0);
-        torch = torchLight.GetComponent<Light2D>();
-        counterClock += Time.deltaTime / torchDuration;
-        lightValue = Mathf.Lerp(0.29f, 0.01f, counterClock);
-        torch.intensity = lightValue;
-        Destroy(gameObject, lifeTime);
+        try
+        {
+                if (playerTorchHolder.transform.GetChild(0))
+                {
+                flickerTorch = playerTorchHolder.transform.GetChild(0);
+                torchLight = flickerTorch.GetChild(0);
+                torch = torchLight.GetComponent<Light2D>();
+                counterClock += Time.deltaTime / torchDuration;
+                lightValue = Mathf.Lerp(0.29f, 0.01f, counterClock);
+                torch.intensity = lightValue;
+                Destroy(gameObject, lifeTime);
+                }
+        }
+            catch
+            {              
+            }
         }
     }
         private void getMousePosition()
