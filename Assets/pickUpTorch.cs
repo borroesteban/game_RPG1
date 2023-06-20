@@ -54,6 +54,8 @@ public GameObject destroyEffect;
 public Vector3 Direction { get; set; }
 private Vector3 target;
 Camera cam;
+public float rotateSpeed;
+public float motionSpeed;
 
 
 
@@ -101,7 +103,8 @@ Camera cam;
             itemHolding.transform.parent = null;
             for (int i = 0; i < 25; i++)
             {
-                itemHolding.transform.position = Vector3.Lerp(startPoint, endPoint, i * .04f);
+                itemHolding.transform.position = Vector3.Lerp(startPoint, endPoint, i * motionSpeed);
+                itemHolding.transform.Rotate(0,0,i*rotateSpeed);
                 yield return null;
             }
             if (itemHolding.GetComponent<Rigidbody2D>())
@@ -137,6 +140,7 @@ Camera cam;
         private void getMousePosition()
     {
             Vector3 worldPoint = Input.mousePosition;
+           
             worldPoint.z = Mathf.Abs(cam.transform.position.z);
             Vector3 mouseWorldPosition = cam.ScreenToWorldPoint(worldPoint);
             mouseWorldPosition.z = 0f;
