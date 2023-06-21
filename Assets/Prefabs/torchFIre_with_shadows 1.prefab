@@ -272,7 +272,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   torchDuration: 10
-  destroyEffect: {fileID: 0}
+  destroyEffect: {fileID: 1206774980257820185, guid: 1e17bcc18fdd7274eba22aa5bfd455e4, type: 3}
+  rotateSpeed: 0.2
+  motionSpeed: 0.025
 --- !u!114 &7582723042088055678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,7 +291,7 @@ MonoBehaviour:
   pickUpMask:
     serializedVersion: 2
     m_Bits: 1
-  destroyEffect: {fileID: 0}
+  destroyEffect: {fileID: 1206774980257820185, guid: 1e17bcc18fdd7274eba22aa5bfd455e4, type: 3}
 --- !u!1 &7246756922960046058
 GameObject:
   m_ObjectHideFlags: 0

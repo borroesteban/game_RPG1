@@ -107,9 +107,15 @@ public float motionSpeed;
                 itemHolding.transform.Rotate(0,0,i*rotateSpeed);
                 yield return null;
             }
+                        for (int i = 0; i < 25; i++)
+            {
+                itemHolding.transform.Rotate(i*rotateSpeed,i*rotateSpeed,i*rotateSpeed/2);
+                yield return null;
+            }
             if (itemHolding.GetComponent<Rigidbody2D>())
                 itemHolding.GetComponent<Rigidbody2D>().simulated = true;
-            Instantiate(destroyEffect, itemHolding.transform.position, Quaternion.identity);
+                Quaternion itemRotation= itemHolding.transform.rotation;
+            Instantiate(destroyEffect, itemHolding.transform.position, itemRotation);
             Destroy(itemHolding);
         }
     }
