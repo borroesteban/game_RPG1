@@ -51,11 +51,13 @@ private float lightValue;
 //stuff used for throwing function
 private GameObject itemHolding;
 public GameObject destroyEffect;
+//public GameObject destroyEffectDebris;
 public Vector3 Direction { get; set; }
 private Vector3 target;
 Camera cam;
 public float rotateSpeed;
 public float motionSpeed;
+public float onDeathRotation;
 
 
 
@@ -65,7 +67,7 @@ public float motionSpeed;
         torchTransformComponent = GetComponent<Transform>();        
         torchColliderComponent = GetComponent<BoxCollider2D>();
         playerTorchHolder = GameObject.Find("Player/torchHolder").transform;
-        if (other.tag == "torchGrabber")
+        if (other.tag == "torchGrabber" && picked==false)
         {
             torchTransformComponent.parent = playerTorchHolder;
             torchTransformComponent.position = playerTorchHolder.transform.position;
@@ -89,8 +91,9 @@ public float motionSpeed;
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            if (itemHolding)
+            if (itemHolding && picked==true)
             {
+                picked=false;
                 StartCoroutine(ThrowItem(itemHolding));
             }
         }
@@ -107,16 +110,21 @@ public float motionSpeed;
                 itemHolding.transform.Rotate(0,0,i*rotateSpeed);
                 yield return null;
             }
-                        for (int i = 0; i < 25; i++)
+            
+            for (int i = 0; i < 25; i++)
             {
-                itemHolding.transform.Rotate(i*rotateSpeed,i*rotateSpeed,i*rotateSpeed/2);
+                itemHolding.transform.Rotate(0,0,i*rotateSpeed/onDeathRotation);
                 yield return null;
             }
+            
+            
+
             if (itemHolding.GetComponent<Rigidbody2D>())
                 itemHolding.GetComponent<Rigidbody2D>().simulated = true;
                 Quaternion itemRotation= itemHolding.transform.rotation;
             Instantiate(destroyEffect, itemHolding.transform.position, itemRotation);
-            Destroy(itemHolding);
+            //Instantiate(destroyEffectDebris, itemHolding.transform.position, itemRotation); it sucks
+            //Destroy(itemHolding);
         }
     }
 
