@@ -91,10 +91,10 @@ public float onDeathRotation;
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            if (itemHolding && picked==true)
+            if (itemHolding)
             {
-                picked=false;
                 StartCoroutine(ThrowItem(itemHolding));
+                itemHolding=null;
             }
         }
 
