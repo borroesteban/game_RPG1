@@ -99,7 +99,6 @@ GameObject:
   - component: {fileID: 7582723042088055671}
   - component: {fileID: 7582723042088055672}
   - component: {fileID: 7582723042088055673}
-  - component: {fileID: 7582723042088055678}
   m_Layer: 0
   m_Name: torchFIre_with_shadows 1
   m_TagString: Untagged
@@ -271,27 +270,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d859fb23ae2921e41824157de4414e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torchDuration: 10
+  torchDuration: 20
+  lifeTimeAfterThrown: 10
+  torchDuration2: 10
   destroyEffect: {fileID: 1206774980257820185, guid: 1e17bcc18fdd7274eba22aa5bfd455e4, type: 3}
-  rotateSpeed: 0.2
+  rotateSpeed: 0.3
   motionSpeed: 0.025
---- !u!114 &7582723042088055678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7246756922873100311}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96031983c11891f4f98da318d783a569, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  holdSpot: {fileID: 0}
-  pickUpMask:
-    serializedVersion: 2
-    m_Bits: 1
-  destroyEffect: {fileID: 1206774980257820185, guid: 1e17bcc18fdd7274eba22aa5bfd455e4, type: 3}
+  onDeathRotation: 3
 --- !u!1 &7246756922960046058
 GameObject:
   m_ObjectHideFlags: 0
