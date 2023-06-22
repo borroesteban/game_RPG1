@@ -47,8 +47,21 @@ public float torchDuration;
 private float lifeTime;
 private float counterClock;
 private float lightValue;
+//variables for torch dead coroutine
+
+/* private float TDClightValue;
+private float TDCcounterClock;
+private Light2D TDCtorch;
+private Transform TDCtorchLight;
+public float TDCtorchDuration;*/
+
+public float lifeTimeAfterThrown;
+float counterClock2;
+private Light2D torch2;
+public int torchDuration2;
 
 //stuff used for throwing function
+
 private GameObject itemHolding;
 public GameObject destroyEffect;
 //public GameObject destroyEffectDebris;
@@ -84,16 +97,13 @@ public float onDeathRotation;
     void Update()
     {
         torchDeathOverTime();
-
-
-
-
-
+        
         if (Input.GetKeyDown(KeyCode.Q))
         {
             if (itemHolding)
             {
                 StartCoroutine(ThrowItem(itemHolding));
+                
                 itemHolding=null;
             }
         }
@@ -116,8 +126,15 @@ public float onDeathRotation;
                 itemHolding.transform.Rotate(0,0,i*rotateSpeed/onDeathRotation);
                 yield return null;
             }
-            
-            
+
+            for (int i = 0; i < torchDuration2; i++)
+            {
+                torch2 = itemHolding.transform.GetComponent<Light2D>();
+                counterClock2 += Time.deltaTime/torchDuration;
+                float lightValue2 = Mathf.Lerp(0.29f, 0.01f, counterClock2);
+                torch2.intensity = lightValue2;
+                yield return null;
+            }
 
             if (itemHolding.GetComponent<Rigidbody2D>())
                 itemHolding.GetComponent<Rigidbody2D>().simulated = true;
@@ -133,8 +150,7 @@ public float onDeathRotation;
         if (picked == true)
         {
         lifeTime = torchDuration;
-        try
-        {
+
                 if (playerTorchHolder.transform.GetChild(0))
                 {
                 flickerTorch = playerTorchHolder.transform.GetChild(0);
@@ -145,10 +161,7 @@ public float onDeathRotation;
                 torch.intensity = lightValue;
                 Destroy(gameObject, lifeTime);
                 }
-        }
-            catch
-            {              
-            }
+                
         }
     }
         private void getMousePosition()
