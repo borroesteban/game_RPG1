@@ -71,10 +71,15 @@ private float lightValue;
                 itemHolding.transform.Rotate(0,0,i*rotateSpeed);
                 yield return null;
             }
+            // returns a random number between 0 and 5
+            float rotationAmount = Random.Range(0, 5);
+
+            // returns a random number between 0.1 and 0.9
+            float rotationSpeed = Random.Range(0.1f, 0.9f);
             
             for (int i = 0; i < 25; i++)
             {
-                itemHolding.transform.Rotate(0,0,i*rotateSpeed/onDeathRotation);
+                itemHolding.transform.Rotate(0,0,i*rotationSpeed/rotationAmount);
                 yield return null;
             }
 
