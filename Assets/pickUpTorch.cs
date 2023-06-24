@@ -23,6 +23,8 @@ private bool picked;
 private float lifeTime;
 private float counterClock;
 private float lightValue;
+public GameObject puffEffect;
+public GameObject fireOnTorchDeath;
 
    //pick up torch on contact
     private void OnTriggerEnter2D(Collider2D other)
@@ -77,16 +79,14 @@ private float lightValue;
             // returns a random number between 0.1 and 0.9
             float rotationSpeed = Random.Range(0.1f, 0.9f);
             
-            for (int i = 0; i < 25; i++)
-            {
-                itemHolding.transform.Rotate(0,0,i*rotationSpeed/rotationAmount);
-                yield return null;
-            }
 
             if (itemHolding.GetComponent<Rigidbody2D>())
                 itemHolding.GetComponent<Rigidbody2D>().simulated = true;
                 Quaternion itemRotation= itemHolding.transform.rotation;
                 Instantiate(destroyEffect, itemHolding.transform.position, itemRotation);
+                Instantiate(puffEffect, itemHolding.transform.position, itemRotation);
+                Instantiate(fireOnTorchDeath, itemHolding.transform.position, itemRotation);
+
         }
     }
 

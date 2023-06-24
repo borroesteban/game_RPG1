@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 28dd5c19953e5ca45b430c31df281054
+guid: bd060eb52ac7ee040813cbc8ffff3426
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 4
+      name: puffEffect_2
       rect:
         serializedVersion: 2
-        x: 266
-        y: 243
-        width: 438
-        height: 622
+        x: 2769
+        y: 507
+        width: 1015
+        height: 986
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f4705d7111e7e244860687d4f52b892
-      internalID: -1070940682
+      spriteID: 2ca24e25daa24e648a3a7c28262c4b03
+      internalID: 546478885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1
+      name: puffEffect_3
       rect:
         serializedVersion: 2
-        x: 967
-        y: 1182
-        width: 274
-        height: 562
+        x: 4121
+        y: 410
+        width: 1211
+        height: 1180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42d0ed9d1947f584e9f860a7be7547f3
-      internalID: 1602093432
+      spriteID: 3e083363930d9a943afd53f25df9929c
+      internalID: -883847532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2
+      name: puffEffect_4
       rect:
         serializedVersion: 2
-        x: 1655
-        y: 1182
-        width: 353
-        height: 562
+        x: 5670
+        y: 467
+        width: 1171
+        height: 1059
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ec2e56bf95ee0b4492e652fcbecb975
-      internalID: 66830464
+      spriteID: 3725b6bbee6e76f4cb3fd0ef1e9b32be
+      internalID: -1397085980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3
+      name: puffEffect_5
       rect:
         serializedVersion: 2
-        x: 2298
-        y: 1177
-        width: 402
-        height: 608
+        x: 7061
+        y: 447
+        width: 1082
+        height: 1099
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53a3d88d56ab0714180ca4777e29f083
-      internalID: 1413163878
+      spriteID: 824460b36aae579458d29f4e548453d7
+      internalID: -1998438158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0
+      name: puffEffect_0
       rect:
         serializedVersion: 2
-        x: 325
-        y: 1177
-        width: 272
-        height: 189
+        x: 513
+        y: 683
+        width: 644
+        height: 634
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b82ec00ede3654a872b274d2dbc9ae
-      internalID: 1094840941
+      spriteID: 17f27db61c148294b86b58fdbca2c7ca
+      internalID: -1108191280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5
+      name: puffEffect_1
       rect:
         serializedVersion: 2
-        x: 926
-        y: 251
-        width: 429
-        height: 594
+        x: 1548
+        y: 585
+        width: 908
+        height: 830
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5c06bad9a7030548911ed07c27008ec
-      internalID: 1043993614
+      spriteID: e0e9b3fbddbd23549a9f96572b63092b
+      internalID: -442536388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6
+      name: puffEffect_6
       rect:
         serializedVersion: 2
-        x: 1584
-        y: 260
-        width: 490
-        height: 597
+        x: 8339
+        y: 440
+        width: 1151
+        height: 1110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b065f2a302728c746b82329ba5837f7a
-      internalID: -1023655029
+      spriteID: 8478bbef75333644f9d51f1c1aa9ee8d
+      internalID: 791768157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 7
+      name: puffEffect_7
       rect:
         serializedVersion: 2
-        x: 2309
-        y: 299
-        width: 457
-        height: 565
+        x: 9622
+        y: 640
+        width: 378
+        height: 639
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3553f2e8e4325e04da6f292a2207cb80
-      internalID: -1448454966
+      spriteID: 1c40c43c2925b9f45b806ad1a29b3732
+      internalID: -1223288572
       vertices: []
       indices: 
       edges: []
@@ -283,32 +283,60 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      0: 1094840941
-      1: 1602093432
-      2: 66830464
-      3: 1413163878
-      4: -1070940682
-      5: 1043993614
-      6: -1023655029
-      7: -1448454966
-      7931212_11: -1237674055
-      7931212_13: 1234700451
-      7931212_14: -196378291
-      7931212_15: -557983659
-      7931212_16: 374393124
-      7931212_17: -1603655401
-      7931212_18: 1853236521
-      7931212_19: 556600561
-      7931212_20: 2136745693
-      7931212_21: 71213674
-      7931212_22: -1780462874
-      7931212_23: 1908759641
-      7931212_24: -1667766025
-      7931212_25: -18664826
-      7931212_3: 19569504
-      7931212_5: -774838680
-      7931212_6: -2069459471
-      7931212_8: 826657041
+      2204_w053_n004_37b_p1_37_11: -46659279
+      2204_w053_n004_37b_p1_37_13: -2102771867
+      2204_w053_n004_37b_p1_37_14: -1966514767
+      2204_w053_n004_37b_p1_37_15: 2101754763
+      2204_w053_n004_37b_p1_37_16: -1973086839
+      2204_w053_n004_37b_p1_37_17: 404212241
+      2204_w053_n004_37b_p1_37_18: -1186471053
+      2204_w053_n004_37b_p1_37_19: 796093804
+      2204_w053_n004_37b_p1_37_20: 766057112
+      2204_w053_n004_37b_p1_37_21: 1962599392
+      2204_w053_n004_37b_p1_37_22: -1228654135
+      2204_w053_n004_37b_p1_37_23: 376425537
+      2204_w053_n004_37b_p1_37_24: 1455218101
+      2204_w053_n004_37b_p1_37_25: -296951151
+      2204_w053_n004_37b_p1_37_26: 191550857
+      2204_w053_n004_37b_p1_37_27: 236049577
+      2204_w053_n004_37b_p1_37_28: 1256136942
+      2204_w053_n004_37b_p1_37_29: -742434527
+      2204_w053_n004_37b_p1_37_3: -935718894
+      2204_w053_n004_37b_p1_37_30: -294424665
+      2204_w053_n004_37b_p1_37_31: -1423034792
+      2204_w053_n004_37b_p1_37_32: 2100949764
+      2204_w053_n004_37b_p1_37_33: -84365656
+      2204_w053_n004_37b_p1_37_34: -268165295
+      2204_w053_n004_37b_p1_37_35: 932608227
+      2204_w053_n004_37b_p1_37_36: -1144425674
+      2204_w053_n004_37b_p1_37_37: -292936978
+      2204_w053_n004_37b_p1_37_38: 637309520
+      2204_w053_n004_37b_p1_37_39: 1321929942
+      2204_w053_n004_37b_p1_37_40: -1139410777
+      2204_w053_n004_37b_p1_37_41: -745499003
+      2204_w053_n004_37b_p1_37_42: -1090402395
+      2204_w053_n004_37b_p1_37_43: -1894658638
+      2204_w053_n004_37b_p1_37_44: -752853244
+      2204_w053_n004_37b_p1_37_45: -410405077
+      2204_w053_n004_37b_p1_37_46: 1065313726
+      2204_w053_n004_37b_p1_37_47: -2029901253
+      2204_w053_n004_37b_p1_37_48: -813208429
+      2204_w053_n004_37b_p1_37_49: 1285856930
+      2204_w053_n004_37b_p1_37_5: -1913155262
+      2204_w053_n004_37b_p1_37_50: 613096427
+      2204_w053_n004_37b_p1_37_51: -524810042
+      2204_w053_n004_37b_p1_37_52: -550333470
+      2204_w053_n004_37b_p1_37_6: -1926421484
+      2204_w053_n004_37b_p1_37_7: 1702533450
+      2204_w053_n004_37b_p1_37_8: 914951134
+      puffEffect_0: -1108191280
+      puffEffect_1: -442536388
+      puffEffect_2: 546478885
+      puffEffect_3: -883847532
+      puffEffect_4: -1397085980
+      puffEffect_5: -1998438158
+      puffEffect_6: 791768157
+      puffEffect_7: -1223288572
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

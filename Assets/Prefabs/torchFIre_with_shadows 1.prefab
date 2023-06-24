@@ -271,12 +271,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   torchDuration: 20
-  lifeTimeAfterThrown: 10
-  torchDuration2: 10
-  destroyEffect: {fileID: 1206774980257820185, guid: 1e17bcc18fdd7274eba22aa5bfd455e4, type: 3}
-  rotateSpeed: 0.3
-  motionSpeed: 0.025
   onDeathRotation: 3
+  motionSpeed: 0.025
+  rotateSpeed: 0.3
+  destroyEffect: {fileID: 1206774980257820185, guid: 1e17bcc18fdd7274eba22aa5bfd455e4, type: 3}
+  puffEffect: {fileID: 7939307184067153370, guid: d9e398157375b7c4c9ecbf6d72d84f40, type: 3}
+  fireOnTorchDeath: {fileID: 718616502777935867, guid: 21af87be8919df346ab9a19a6de72316, type: 3}
 --- !u!1 &7246756922960046058
 GameObject:
   m_ObjectHideFlags: 0
