@@ -10,7 +10,6 @@ public float onDeathRotation;
 public float motionSpeed;
 public float rotateSpeed;
 public GameObject destroyEffect;
-private BoxCollider2D torchColliderComponent;
 private GameObject itemHolding;
 private Transform torchTransformComponent;
 private Transform playerTorchHolder;
@@ -30,7 +29,6 @@ public GameObject fireOnTorchDeath;
     private void OnTriggerEnter2D(Collider2D other)
     {   
         torchTransformComponent = GetComponent<Transform>();        
-        torchColliderComponent = GetComponent<BoxCollider2D>();
         playerTorchHolder = GameObject.Find("Player/torchHolder").transform;
         
         if (other.tag == "torchGrabber" && picked==false)
@@ -41,7 +39,20 @@ public GameObject fireOnTorchDeath;
             torchToKill = torchTransformComponent;
             picked = true;       
         }
+        if (other.tag == "BlockingTile" && picked==true)
+        
+        {
+            itemHolding = torchTransformComponent.gameObject;
+            if (itemHolding.GetComponent<Rigidbody2D>())
+            itemHolding.GetComponent<Rigidbody2D>().simulated = true;
+            Quaternion itemRotation= itemHolding.transform.rotation;
+            Instantiate(fireOnTorchDeath, itemHolding.transform.position, itemRotation);
+            Destroy(itemHolding);
+        }
     }
+
+
+
     public void Awake()
     {
         cam = Camera.main;
@@ -73,20 +84,13 @@ public GameObject fireOnTorchDeath;
                 itemHolding.transform.Rotate(0,0,i*rotateSpeed);
                 yield return null;
             }
-            // returns a random number between 0 and 5
-            float rotationAmount = Random.Range(0, 5);
-
-            // returns a random number between 0.1 and 0.9
-            float rotationSpeed = Random.Range(0.1f, 0.9f);
             
-
             if (itemHolding.GetComponent<Rigidbody2D>())
                 itemHolding.GetComponent<Rigidbody2D>().simulated = true;
                 Quaternion itemRotation= itemHolding.transform.rotation;
                 Instantiate(destroyEffect, itemHolding.transform.position, itemRotation);
                 Instantiate(puffEffect, itemHolding.transform.position, itemRotation);
                 Instantiate(fireOnTorchDeath, itemHolding.transform.position, itemRotation);
-
         }
     }
 
