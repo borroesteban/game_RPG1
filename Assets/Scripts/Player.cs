@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Player : Mover
 {
+    private Animator animator;
     private SpriteRenderer spriteRenderer;
     public bool isAlive = true;
     
@@ -31,6 +32,15 @@ public class Player : Mover
     float y = Input.GetAxisRaw("Vertical");
     if(isAlive)
         UpdateMotor(new Vector3(x, y, 0));
+    
+    if (transform.hasChanged)
+    {
+        animator.SetBool("isMoving", true);
+    }
+    if (!transform.hasChanged)
+    {
+        animator.SetBool("isMoving", false);
+    }
     }
 
     public void SwapSprite(int skinId)
@@ -70,6 +80,8 @@ public class Player : Mover
         pushDirection = Vector3.zero;
         
     }
+
+
 
 }
 
