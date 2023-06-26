@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : Mover
 {
+    public GameObject corpse;
     //experience
     public int xpValue = 1;
 
@@ -14,7 +15,10 @@ public class Enemy : Mover
     private bool collidingWithPlayer;
     private Transform playerTransform;
     private Vector3 startingPosition;
-
+    public Transform thisTransform;
+    private Vector3 positionCheckOrigin;
+    private Vector3 positionCheckActual;
+    public Animator animator;
 
     
     
@@ -31,8 +35,16 @@ public class Enemy : Mover
         hitbox = transform.GetChild(0).GetComponent<BoxCollider2D>();
     }
 
+    private void Update()
+    {
+        positionCheckOrigin=thisTransform.position;
+    }
+
     private void FixedUpdate()
     {
+        positionCheckActual=thisTransform.position;
+        checkMovement();
+
           //is the player in range?
         if(Vector3.Distance(playerTransform.position, startingPosition) < chaseLength)
         {
@@ -81,10 +93,24 @@ public class Enemy : Mover
 
     protected override void Death()
     {
+        Instantiate(corpse, positionCheckActual, Quaternion.identity);
         Destroy(gameObject);
         GameManager.instance.GrantXp(xpValue);
         GameManager.instance.ShowText("+" + xpValue + " xp", 30, Color.magenta, transform.position, Vector3.up * 40, 1.0f);
     }
 
+    private void checkMovement()
+    {
+        if (positionCheckOrigin != positionCheckActual)
+        {
+            animator.SetTrigger("isMoving");
+        }
+        if (positionCheckOrigin == positionCheckActual)
+        {
+            animator.SetTrigger("isNotMoving");
+        }
+    }
 }
+
+
 

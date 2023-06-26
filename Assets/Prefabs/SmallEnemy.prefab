@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7941417908234015667}
   - component: {fileID: 7941417908234015664}
   - component: {fileID: 7941417908234015669}
+  - component: {fileID: 606592536}
   m_Layer: 9
   m_Name: SmallEnemy
   m_TagString: Fighter
@@ -55,7 +56,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -73,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -2078571671
-  m_SortingLayer: 4
+  m_SortingLayerID: -596113837
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -1163649435, guid: ce8f1e0c09f96b34b8ff30adf3e43e3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -128,9 +129,13 @@ MonoBehaviour:
   hitpoint: 3
   maxHitpoint: 3
   pushRecoverySpeed: 0.2
+  ySpeed: 0.75
+  xSpeed: 1
   xpValue: 1
   triggerLength: 0.3
   chaseLength: 1
+  thisTransform: {fileID: 7941417908234015666}
+  animator: {fileID: 606592536}
   filter:
     useTriggers: 0
     useLayerMask: 0
@@ -145,6 +150,27 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+--- !u!95 &606592536
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7941417908234015665}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a327c26590fe6164bae0715d46c364d7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7941417909321718858
 GameObject:
   m_ObjectHideFlags: 0
