@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Enemy : Mover
 {
-    public GameObject corpse;
+    //public GameObject corpse;
+    public List<GameObject> corpseAnimation = new List<GameObject>();
     //experience
     public int xpValue = 1;
 
@@ -93,7 +94,9 @@ public class Enemy : Mover
 
     protected override void Death()
     {
-        Instantiate(corpse, positionCheckActual, Quaternion.identity);
+        int randomAnimation = Random.Range(0, corpseAnimation.Count);
+        Instantiate(corpseAnimation[randomAnimation], positionCheckActual, Quaternion.identity);
+        //Instantiate(corpse, positionCheckActual, Quaternion.identity);
         Destroy(gameObject);
         GameManager.instance.GrantXp(xpValue);
         GameManager.instance.ShowText("+" + xpValue + " xp", 30, Color.magenta, transform.position, Vector3.up * 40, 1.0f);
