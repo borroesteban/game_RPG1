@@ -3401,7 +3401,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3409,6 +3409,27 @@ TextureImporter:
       bones: []
       spriteID: f145b803c547bf049847e785524b7c25
       internalID: -1496944217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crate_single
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ab13ec931e4ef4dac5718e63ac0643
+      internalID: 989842614
       vertices: []
       indices: 
       edges: []
@@ -3435,6 +3456,7 @@ TextureImporter:
       crate_2: 922946385
       crate_3: 529284412
       crate_pile: -1496944217
+      crate_single: 989842614
       darkness_0: 2055885527
       darkness_1: 2078108133
       darkness_10: -110976962
