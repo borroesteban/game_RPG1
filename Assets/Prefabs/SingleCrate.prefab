@@ -48,7 +48,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0010905266, y: -0.0010179281}
+  m_Offset: {x: -0.0684728, y: -0.11982748}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -59,7 +59,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.15966606, y: 0.21234918}
+  m_Size: {x: 0.14028561, y: 0.1897383}
   m_EdgeRadius: 0
 --- !u!114 &3567731048594581089
 MonoBehaviour:
@@ -78,8 +78,8 @@ MonoBehaviour:
   pushRecoverySpeed: 0.2
   corpseAnimation:
   - {fileID: 4335913200075656932, guid: f5eb3891129d50448a2160441fbd6e6e, type: 3}
-  - {fileID: 1112999730079632125, guid: 7bb0455f4b8a99042901c71da1a6c55b, type: 3}
-  - {fileID: 7120994795495921546, guid: c804a96874fda5b4c808cf02d37bfbbc, type: 3}
+  - {fileID: 6641390437806151028, guid: d1905c7287f7bf649b6a25e9d42151d7, type: 3}
+  - {fileID: 3284029064804843801, guid: 474b50d0ce35da147ae03e910ded0c5f, type: 3}
   thisObject: {fileID: 1929681254485277636}
 --- !u!212 &975377816999850804
 SpriteRenderer:
@@ -159,7 +159,7 @@ MonoBehaviour:
   - {x: 0.0016698837, y: -0.21469665, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: -6652
+  m_InstanceId: -1970
   m_LocalBounds:
     m_Center: {x: -0.06847286, y: -0.11982751, z: 0}
     m_Extent: {x: 0.070142746, y: 0.09486914, z: 0}
