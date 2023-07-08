@@ -2431,11 +2431,11 @@ ParticleSystem:
     inWorldSpace: 0
   InheritVelocityModule:
     enabled: 1
-    m_Mode: 0
+    m_Mode: 1
     m_Curve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 10
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -5222,7 +5222,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.862
   m_Color: {r: 0.9529412, g: 0.5428774, b: 0.023529397, a: 1}
-  m_Intensity: 0.29
+  m_Intensity: 0.2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 1
   m_ApplyToSortingLayers: ab21739b00000000239e1888f34afb43818f6fea69831b84530678dc756a425495d9ca13710db5b6f3c180f5

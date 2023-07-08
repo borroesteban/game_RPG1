@@ -47,6 +47,7 @@ public GameObject fireOnTorchDeath;
             itemHolding.GetComponent<Rigidbody2D>().simulated = true;
             Quaternion itemRotation= itemHolding.transform.rotation;
             Instantiate(fireOnTorchDeath, itemHolding.transform.position, itemRotation);
+            Destroy(fireOnTorchDeath);
             Destroy(itemHolding);
         }
     }
